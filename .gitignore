@@ -1,0 +1,7 @@
+.parcel-cache
+node_modules/
+.DS_Store
+dist
+
+# .build directory is where Architech transpiles our lambdas
+.build
