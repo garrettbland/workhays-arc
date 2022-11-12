@@ -7,7 +7,7 @@ export function App() {
             Hello world!!!{' '}
             <button
                 onClick={() => alertMe('garrett')}
-                className="p-2 rounded bg-gray-200 hover:bg-red-200"
+                className="p-2 rounded bg-gray-200 hover:bg-green-200"
             >
                 CLick me button
             </button>
