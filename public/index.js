@@ -27094,14 +27094,16 @@ function App() {
     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
         children: [
-            "Hello world! ",
+            "Hello world!!!",
+            " ",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                 onClick: ()=>alertMe("garrett"),
+                className: "p-2 rounded bg-gray-200 hover:bg-red-200",
                 children: "CLick me button"
             }, void 0, false, {
                 fileName: "app/App.tsx",
-                lineNumber: 7,
-                columnNumber: 26
+                lineNumber: 8,
+                columnNumber: 13
             }, this)
         ]
     }, void 0, true, {

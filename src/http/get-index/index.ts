@@ -45,6 +45,7 @@ export async function handler(req) {
               color: black;
             }
           </style>
+          <link href="./_static/style.css" rel="stylesheet">
         </head>
         <body class="padding-32">
           <div class="max-width-320">

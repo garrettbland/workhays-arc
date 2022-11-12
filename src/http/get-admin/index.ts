@@ -13,6 +13,7 @@ export async function handler(req) {
           <meta charset="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <title>Admin</title>
+          <link href="./_static/style.css" rel="stylesheet">
         </head>
         <body class="padding-32">
           <div id="root"></div>

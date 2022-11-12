@@ -4,7 +4,13 @@ export function App() {
     }
     return (
         <h1>
-            Hello world! <button onClick={() => alertMe('garrett')}>CLick me button</button>
+            Hello world!!!{' '}
+            <button
+                onClick={() => alertMe('garrett')}
+                className="p-2 rounded bg-gray-200 hover:bg-red-200"
+            >
+                CLick me button
+            </button>
         </h1>
     )
 }

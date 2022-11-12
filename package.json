@@ -8,7 +8,9 @@
         "dev": "npm run clean && run-p dev:**",
         "dev:arc": "npx sandbox",
         "dev:admin": "npx parcel watch",
-        "build:admin": "npx parcel build"
+        "dev:tailwind": "npx tailwindcss -i style/tailwind.css -o public/style.css -w",
+        "build:admin": "npx parcel build",
+        "build:tailwind": "npx tailwindcss -i style/tailwind.css -o dist/style.css --minify"
     },
     "devDependencies": {
         "@architect/architect": "^10.7.2",
@@ -17,11 +19,13 @@
         "@types/react-dom": "^18.0.8",
         "npm-run-all": "^4.1.5",
         "parcel": "^2.8.0",
+        "postcss": "^8.4.19",
         "prettier": "^2.7.1",
         "process": "^0.11.10",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
-        "rimraf": "^3.0.2"
+        "rimraf": "^3.0.2",
+        "tailwindcss": "^3.2.4"
     },
     "source": "app/index.ts",
     "targets": {
