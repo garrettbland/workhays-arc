@@ -18,6 +18,9 @@ prune true
 @plugins
 architect/plugin-typescript
 
+@typescript
+esbuild-config esbuild-config.js
+
 # Allows lambdas to share code. Automatically gets copied into all functions
 # Usage: import { x } from '@architect/shared/<filename>'
 @shared
