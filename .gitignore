@@ -3,5 +3,5 @@ node_modules/
 .DS_Store
 dist
 
-# .build directory is where Architech transpiles our lambdas
+# .build directory is where Architech transpiles our lambdas using esbuild
 .build

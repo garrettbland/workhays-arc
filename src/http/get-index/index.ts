@@ -4,14 +4,14 @@ import indexFile from './index.html'
 import { Template } from '@architect/views/template'
 
 export async function handler(req) {
-    const view = await readFile(indexFile, { encoding: 'utf-8' }).then(
-        (data) => data,
-        (err) => console.log('ERRR')
-    )
+    // const view = await readFile(indexFile, { encoding: 'utf-8' }).then(
+    //     (data) => data,
+    //     (err) => console.log('ERRR')
+    // )
 
-    if (!view) throw Error('Something went wrong reading file...')
+    // if (!view) throw Error('Something went wrong reading file...')
 
-    const result = Template(view)
+    const result = Template(indexFile)
 
     return {
         statusCode: 200,
