@@ -1,10 +1,7 @@
 /**
  * Shared template utility
  */
-import head from './includes/head.html'
-import navbar from './includes/navbar.html'
-import header from './includes/header.html'
-import footer from './includes/footer.html'
+import { head, navbar, header, footer, layout } from './includes'
 import { compile, render, templates } from 'squirrelly'
 
 const PARTIALS: { title: string; partial: string }[] = [
@@ -24,6 +21,10 @@ const PARTIALS: { title: string; partial: string }[] = [
         title: 'footer',
         partial: footer,
     },
+    {
+        title: 'layout',
+        partial: layout,
+    },
 ]
 
 /**
@@ -39,7 +40,7 @@ PARTIALS.forEach(({ title, partial }) => {
     templates.define(title, compile(partial))
 })
 
-export const Template = (html: string) => {
+export const Template = (html: string, pageData?: Record<string, any>) => {
     const myTemplate = html
     const data = {
         name: 'Garrett from data',
@@ -48,14 +49,10 @@ export const Template = (html: string) => {
             title: 'Work Hays',
         },
         pageTitle: 'To Do',
+        ...pageData,
     }
 
-    /**
-     * To do: figured out @extends from squirelly
-     */
-    const result = render(`${header}${myTemplate}${footer}`, data)
-
-    console.log(result)
+    const result = render(`{{@extends('layout', it)}}${myTemplate}{{/extends}}`, data)
 
     return result
 }

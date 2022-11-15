@@ -6,11 +6,12 @@ export function App() {
         <h1>
             Hello world!!!{' '}
             <button
-                onClick={() => alertMe('garrett')}
+                onClick={() => alertMe('garrett!!!')}
                 className="p-2 rounded bg-gray-200 hover:bg-green-200"
             >
                 CLick me button
             </button>
+            <div>Weeeee more stuff</div>
         </h1>
     )
 }

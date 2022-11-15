@@ -1,17 +1,9 @@
 // // learn more about HTTP functions here: https://arc.codes/http
-import { readFile } from 'fs/promises'
 import indexFile from './index.html'
 import { Template } from '@architect/views/template'
 
 export async function handler(req) {
-    // const view = await readFile(indexFile, { encoding: 'utf-8' }).then(
-    //     (data) => data,
-    //     (err) => console.log('ERRR')
-    // )
-
-    // if (!view) throw Error('Something went wrong reading file...')
-
-    const result = Template(indexFile)
+    const result = Template(indexFile, { pageTitle: 'Work Hays' })
 
     return {
         statusCode: 200,

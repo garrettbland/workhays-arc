@@ -27097,12 +27097,19 @@ function App() {
             "Hello world!!!",
             " ",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                onClick: ()=>alertMe("garrett"),
+                onClick: ()=>alertMe("garrett!!!"),
                 className: "p-2 rounded bg-gray-200 hover:bg-green-200",
                 children: "CLick me button"
             }, void 0, false, {
                 fileName: "app/App.tsx",
                 lineNumber: 8,
+                columnNumber: 13
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: "Weeeee more stuff"
+            }, void 0, false, {
+                fileName: "app/App.tsx",
+                lineNumber: 14,
                 columnNumber: 13
             }, this)
         ]

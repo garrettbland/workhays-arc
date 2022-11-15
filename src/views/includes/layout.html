@@ -2,6 +2,8 @@
 <html lang="en">
     {{ @include('head', it) /}}
     <body class="bg-blue-100">
-        {{ @include('header', it) /}} {{ }} {{ @include('footer', it) /}}
+        <div>{{ @include('header', it) /}}</div>
+        <div>{{@block('content')}} this is the default vaulue of content {{/block}}</div>
+        <div>{{ @include('footer', it) /}}</div>
     </body>
 </html>
