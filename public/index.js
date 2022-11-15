@@ -27099,7 +27099,7 @@ function App() {
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                 onClick: ()=>alertMe("garrett!!!"),
                 className: "p-2 rounded bg-gray-200 hover:bg-green-200",
-                children: "CLick me button"
+                children: "CLick me buttonfsafsa"
             }, void 0, false, {
                 fileName: "app/App.tsx",
                 lineNumber: 8,

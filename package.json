@@ -1,7 +1,7 @@
 {
     "name": "workhays-arc",
     "version": "0.0.0",
-    "description": "A fresh new Architect project!",
+    "description": "Workhays.com",
     "scripts": {
         "clean": "rimraf .parcel-cache dist",
         "init": "npx arc init",

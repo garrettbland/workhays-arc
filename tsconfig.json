@@ -3,7 +3,8 @@
         "baseUrl": ".",
         "jsx": "react-jsx",
         "paths": {
-            "@architect/views/*": ["src/views/*"]
+            "@architect/views/*": ["src/views/*"],
+            "@custom-types/*": ["types/*"]
         }
     }
 }
