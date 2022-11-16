@@ -1,7 +1,6 @@
 import { compile, render, templates } from 'squirrelly'
-import { SquirrellyPartial } from '@custom-types/template'
-
-const DEFAULT_LAYOUT = 'base'
+import { SquirrellyPartial, LayoutRenderer } from '@custom-types/template'
+import { DEFAULT_LAYOUT } from './config'
 
 /**
  * Loops through the partials and defines them to use within out .html
@@ -34,14 +33,6 @@ export const definePartials = (partials: SquirrellyPartial[]) => {
  * renderWithLayout({ content: '<div>Hi Im {{ it.name }}</div>', data: {name: 'garrett'}})
  * ```
  */
-export const renderWithLayout = ({
-    layout = DEFAULT_LAYOUT,
-    content,
-    data,
-}: {
-    layout?: string
-    content: string
-    data: Record<string, any>
-}) => {
+export const renderWithLayout: LayoutRenderer = ({ layout = DEFAULT_LAYOUT, content, data }) => {
     return render(`{{@extends('${layout}', it)}}${content}{{/extends}}`, data)
 }
