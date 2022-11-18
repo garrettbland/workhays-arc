@@ -10,14 +10,18 @@
         "dev:admin": "npx parcel watch",
         "dev:tailwind": "npx tailwindcss -i style/tailwind.css -o public/style.css -w",
         "build:admin": "npx parcel build",
-        "build:tailwind": "npx tailwindcss -i style/tailwind.css -o dist/style.css --minify"
+        "build:tailwind": "npx tailwindcss -i style/tailwind.css -o dist/style.css --minify",
+        "test": "jest"
     },
     "devDependencies": {
         "@architect/architect": "^10.7.2",
         "@architect/plugin-typescript": "^0.3.0",
+        "@types/jest": "^29.2.3",
         "@types/react": "^18.0.25",
         "@types/react-dom": "^18.0.8",
         "@types/squirrelly": "^7.1.2",
+        "esbuild-jest": "^0.5.0",
+        "jest": "^29.3.1",
         "npm-run-all": "^4.1.5",
         "parcel": "^2.8.0",
         "prettier": "^2.7.1",
@@ -25,7 +29,8 @@
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "rimraf": "^3.0.2",
-        "tailwindcss": "^3.2.4"
+        "tailwindcss": "^3.2.4",
+        "ts-jest": "^29.0.3"
     },
     "targets": {
         "admin": {

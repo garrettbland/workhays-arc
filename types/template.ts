@@ -9,7 +9,7 @@ export interface LayoutRenderer {
         content,
         data,
     }: {
-        layout: string
+        layout?: string
         content: string
         data: Record<string, any>
     }): string
