@@ -2503,13 +2503,13 @@ process.umask = function() {
     return 0;
 };
 
-},{}],"5xDEV":[function(require,module,exports) {
+},{}],"276aU":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = 1234;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "1ef1dc729ee7b0b9";
+module.bundle.HMR_BUNDLE_ID = "19ed2192ad35f0d9";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, globalThis, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -2892,28 +2892,28 @@ function hmrAcceptRun(bundle, id) {
     acceptedAssets[id] = true;
 }
 
-},{}],"1j4YP":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$05b8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"gF6M7":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$1932 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$05b8.prelude(module);
+$parcel$ReactRefreshHelpers$1932.prelude(module);
 
 try {
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _reactDom = require("react-dom");
 var _app = require("./App");
 (0, _reactDom.render)(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _app.App), {}, void 0, false, {
-    fileName: "app/index.tsx",
+    fileName: "src/app/index.tsx",
     lineNumber: 4,
     columnNumber: 8
 }, undefined), document.getElementById("root"));
 
-  $parcel$ReactRefreshHelpers$05b8.postlude(module);
+  $parcel$ReactRefreshHelpers$1932.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom":"j6uA9","./App":"gu4Sz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom":"j6uA9","./App":"4a8xz","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("./cjs/react-jsx-dev-runtime.development.js");
 
@@ -27077,11 +27077,11 @@ module.exports = require("./cjs/scheduler.development.js");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"gu4Sz":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$94ad = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"4a8xz":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$4892 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$94ad.prelude(module);
+$parcel$ReactRefreshHelpers$4892.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -27099,22 +27099,22 @@ function App() {
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                 onClick: ()=>alertMe("garrett!!!"),
                 className: "p-2 rounded bg-gray-200 hover:bg-green-200",
-                children: "CLick me buttonfsafsa"
+                children: "CLick me meow hello"
             }, void 0, false, {
-                fileName: "app/App.tsx",
+                fileName: "src/app/App.tsx",
                 lineNumber: 8,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 children: "Weeeee more stuff"
             }, void 0, false, {
-                fileName: "app/App.tsx",
+                fileName: "src/app/App.tsx",
                 lineNumber: 14,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
-        fileName: "app/App.tsx",
+        fileName: "src/app/App.tsx",
         lineNumber: 6,
         columnNumber: 9
     }, this);
@@ -27123,7 +27123,7 @@ _c = App;
 var _c;
 $RefreshReg$(_c, "App");
 
-  $parcel$ReactRefreshHelpers$94ad.postlude(module);
+  $parcel$ReactRefreshHelpers$4892.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
@@ -27292,6 +27292,6 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}]},["1xC6H","5xDEV","1j4YP"], "1j4YP", "parcelRequiredb40")
+},{"react-refresh/runtime":"786KC"}]},["1xC6H","276aU","gF6M7"], "gF6M7", "parcelRequiredb40")
 
 //# sourceMappingURL=index.js.map

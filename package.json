@@ -8,9 +8,9 @@
         "dev": "npm run clean && run-p dev:**",
         "dev:arc": "npx sandbox",
         "dev:admin": "npx parcel watch",
-        "dev:tailwind": "npx tailwindcss -i style/tailwind.css -o public/style.css -w",
+        "dev:tailwind": "npx tailwindcss -i src/style/tailwind.css -o public/style.css -w",
         "build:admin": "npx parcel build",
-        "build:tailwind": "npx tailwindcss -i style/tailwind.css -o dist/style.css --minify",
+        "build:tailwind": "npx tailwindcss -i src/style/tailwind.css -o dist/style.css --minify",
         "test": "jest"
     },
     "devDependencies": {
@@ -34,7 +34,7 @@
     },
     "targets": {
         "admin": {
-            "source": "app/index.tsx",
+            "source": "./src/app/index.tsx",
             "distDir": "./public"
         }
     },

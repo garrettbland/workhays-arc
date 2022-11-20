@@ -1,5 +1,5 @@
 import { compile, render, templates } from 'squirrelly'
-import { SquirrellyPartial, LayoutRenderer } from '@custom-types/template'
+import { SquirrellyPartial, LayoutRenderer } from 'src/types/template'
 import { DEFAULT_LAYOUT } from './config'
 
 /**

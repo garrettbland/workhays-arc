@@ -4,7 +4,7 @@
         "jsx": "react-jsx",
         "paths": {
             "@architect/views/*": ["src/views/*"],
-            "@custom-types/*": ["types/*"]
+            "@custom-types/*": ["src/types/*"]
         }
     }
 }

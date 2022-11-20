@@ -14,3 +14,9 @@ export interface LayoutRenderer {
         data: Record<string, any>
     }): string
 }
+
+export type LoginStatus = 'IDLE' | 'LOADING' | 'COMPLETE' | 'ERROR'
+export interface LoginShape {
+    username: string
+    password: string
+}

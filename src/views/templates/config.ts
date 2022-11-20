@@ -7,7 +7,7 @@ import header from './includes/header.html'
 import footer from './includes/footer.html'
 import base from './includes/base.html'
 
-import { SquirrellyPartial } from '@custom-types/template'
+import { SquirrellyPartial } from 'src/types/template'
 
 /**
  * All partials used throughout our includes templates
