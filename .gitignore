@@ -9,3 +9,6 @@ preferences.arc
 
 # File built with 'arc deploy --dry-run'
 sam.json
+
+# File built with 'arc deploy' that gets uploaded to CloudFormation
+sam.yaml

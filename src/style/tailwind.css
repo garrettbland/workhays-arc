@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+navbar > ul > a {
+    @apply bg-blue-200;
+}

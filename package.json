@@ -6,9 +6,10 @@
         "clean": "rimraf .parcel-cache dist",
         "init": "npx arc init",
         "dev": "npm run clean && run-p dev:**",
-        "dev:arc": "npx sandbox",
+        "dev:arc": "npx arc sandbox",
         "dev:admin": "npx parcel watch",
         "dev:tailwind": "npx tailwindcss -i src/style/tailwind.css -o public/style.css -w",
+        "build": "npm run clean && run-p build:**",
         "build:admin": "npx parcel build",
         "build:tailwind": "npx tailwindcss -i src/style/tailwind.css -o dist/style.css --minify",
         "test": "jest"
