@@ -1,14 +1,14 @@
 @app
-workhays-arc
+workhays
 
 @http
 get /
 get /admin
 
 @aws
-# profile default
+profile architect
 runtime typescript # sets TS as the the default runtime for your entire project
-region us-west-2
+region us-east-2
 architecture arm64
 
 # Defines static files that will be uploaded to s3
