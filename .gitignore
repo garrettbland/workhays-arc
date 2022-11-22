@@ -6,3 +6,6 @@ dist
 # .build directory is where Architech transpiles our lambdas using esbuild
 .build
 preferences.arc
+
+# File built with 'arc deploy --dry-run'
+sam.json

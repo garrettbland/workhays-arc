@@ -45,5 +45,8 @@
         "printWidth": 100,
         "tabWidth": 4,
         "trailingComma": "es5"
+    },
+    "dependencies": {
+        "squirrelly": "^8.0.8"
     }
 }
