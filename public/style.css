@@ -513,8 +513,24 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.static {
+  position: static;
+}
+
+.absolute {
+  position: absolute;
+}
+
 .block {
   display: block;
+}
+
+.inline {
+  display: inline;
+}
+
+.table {
+  display: table;
 }
 
 .list-inside {
@@ -540,11 +556,6 @@ video {
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
 }
 
-.bg-slate-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
-}
-
 .bg-slate-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
@@ -567,11 +578,6 @@ video {
   padding-top: 1.25rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -579,6 +585,18 @@ video {
 
 .font-extrabold {
   font-weight: 800;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 navbar > ul > a {

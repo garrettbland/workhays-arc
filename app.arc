@@ -32,3 +32,18 @@ esbuild-config esbuild.js
 # Allows lambdas to share view code. Automatically gets copied into GET requests
 # Usage: import { x } from '@architect/views/<filename>'
 @views
+
+# Dynamo DB Tables
+# Working with dynamo database locally stores data in memory using Dynalite
+# Options are available for persistant memory or live database's on AWS
+@tables
+workhays
+  PK *String
+  SK **String
+
+# Global Secondary Indexes for Dynamo DB Tables
+@tables-indexes
+workhays
+  GSI1PK *String
+  GSI1SK **String
+  name GSI1
