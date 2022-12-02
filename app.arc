@@ -47,3 +47,8 @@ workhays
   GSI1PK *String
   GSI1SK **String
   name GSI1
+
+workhays
+  GSI2PK *String
+  GSI2SK **String
+  name GSI2
