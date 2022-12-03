@@ -7,7 +7,9 @@ export const handler = async (req) => {
     let client = await tables()
     let workhaysTable = client.workhays
 
-    let allRecords = await workhaysTable.scan({})
+    let allRecords = await workhaysTable.scan({
+        Limit: 20,
+    })
 
     let jobsByEmployer = await workhaysTable.query({
         IndexName: 'GSI1',
@@ -27,11 +29,21 @@ export const handler = async (req) => {
         },
     })
 
+    const activeJobs = await workhaysTable.query({
+        IndexName: 'GSI1',
+        KeyConditionExpression: 'GSI1PK = :activeJob and GSI1SK >= :todaysDate',
+        ExpressionAttributeValues: {
+            ':activeJob': 'JOB#ACTIVE',
+            ':todaysDate': '2',
+        },
+    })
+
     const result = Template(indexFile, {
         pageTitle: 'Work Hays',
-        allRecords,
-        jobsByEmployer,
-        usersByEmployer,
+        activeJobs: activeJobs,
+        // allRecords,
+        // jobsByEmployer,
+        // usersByEmployer,
     })
 
     return {
