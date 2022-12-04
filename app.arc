@@ -10,6 +10,7 @@ get /admin
 profile architect
 runtime typescript # sets TS as the the default runtime for your entire project
 region us-east-2
+architecture arm64
 
 # Defines static files that will be uploaded to s3
 # prune will automatically remove assets from S3 bucket not found in the static 
