@@ -1,4 +1,3 @@
-// import { compile, render, templates } from 'squirrelly'
 import * as SquirrellyAPI from 'squirrelly'
 import { definePartials, renderWithLayout } from '../index'
 import { PARTIALS } from '../config'

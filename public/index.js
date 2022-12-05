@@ -27098,7 +27098,7 @@ function App() {
             " ",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                 onClick: ()=>alertMe("garrett!!!"),
-                className: "p-2 rounded bg-gray-200 hover:bg-green-200",
+                className: "p-2 rounded bg-gray-200 hover:bg-red-200",
                 children: "CLick me meow hello"
             }, void 0, false, {
                 fileName: "src/app/App.tsx",
