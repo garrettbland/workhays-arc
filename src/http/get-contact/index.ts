@@ -1,5 +1,4 @@
-// learn more about HTTP functions here: https://arc.codes/http
-export async function handler(req) {
+export const handler = async (req) => {
     return {
         statusCode: 200,
         headers: {
@@ -17,7 +16,7 @@ export async function handler(req) {
         </head>
         <body class="padding-32">
           <div id="root"></div>
-          <script type="module" src="/_static/admin/index.js"></script>
+          <script type="module" src="/_static/contact/index.js"></script>
         </body>
       </html>
     `,

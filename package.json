@@ -38,7 +38,11 @@
     },
     "targets": {
         "admin": {
-            "source": "./src/app/index.tsx",
+            "source": "./src/app/admin/index.tsx",
+            "distDir": "./public"
+        },
+        "contact": {
+            "source": "./src/app/contact/index.ts",
             "distDir": "./public"
         }
     },

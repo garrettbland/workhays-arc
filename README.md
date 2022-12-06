@@ -22,7 +22,9 @@ Getting started instructions coming soon...
 │   ├── 'esbuild.js' // Custom esbuild config
 │   └── 'htmlLoader.js' // Custom loader for esbuild
 ├── src/
-│   ├── app/ // React Application
+│   ├── app/ // Frontend Javascript
+│   │   ├── admin/ // React Admin Application
+│   │   ├── contact/ // Svelte Contact Application
 │   ├── http/ // Arc HTTP endpoints
 │   ├── style/ // Site wide css
 │   ├── types/ // Typings for project
