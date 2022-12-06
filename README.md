@@ -30,6 +30,7 @@ Getting started instructions coming soon...
 │   ├── types/ // Typings for project
 │   └── views/ // Shared code for GET http requests
 ├── '.gitignore' // Ignore files from SCM
+├── '.parcelrc' // Parcel bundler config
 ├── 'app.arc' // Architect config
 ├── 'jest.config.js' // Jest testing config
 ├── 'package-lock.json' // Dependency locking

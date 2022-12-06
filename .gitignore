@@ -3,6 +3,11 @@ node_modules/
 .DS_Store
 dist
 
+# Public directory auto built files from development
+public/admin/*
+public/contact/*
+public/style.css
+
 # .build directory is where Architech transpiles our lambdas using esbuild
 .build
 preferences.arc

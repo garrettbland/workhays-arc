@@ -2899,12 +2899,18 @@ var prevRefreshSig = window.$RefreshSig$;
 $parcel$ReactRefreshHelpers$bddc.prelude(module);
 
 try {
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
+/**
+ * Entry point for admin application using React.
+ * Using React for the admin piece for a snappy SPA
+ * experience and to handle things like auth.
+ *
+ * This piece of the project is using Typescript/TSX
+ */ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _reactDom = require("react-dom");
 var _app = require("./App");
 (0, _reactDom.render)(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _app.App), {}, void 0, false, {
     fileName: "src/app/admin/index.tsx",
-    lineNumber: 4,
+    lineNumber: 12,
     columnNumber: 8
 }, undefined), document.getElementById("root"));
 
@@ -27102,20 +27108,20 @@ function App() {
                 children: "CLick me meow hello"
             }, void 0, false, {
                 fileName: "src/app/admin/App.tsx",
-                lineNumber: 8,
+                lineNumber: 10,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 children: "Weeeee more stuff"
             }, void 0, false, {
                 fileName: "src/app/admin/App.tsx",
-                lineNumber: 14,
+                lineNumber: 16,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "src/app/admin/App.tsx",
-        lineNumber: 6,
+        lineNumber: 8,
         columnNumber: 9
     }, this);
 }

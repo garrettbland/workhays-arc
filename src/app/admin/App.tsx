@@ -1,5 +1,7 @@
 export function App() {
-    const alertMe = (name: string): void => {
+    type name = string
+
+    const alertMe = (name: name): void => {
         alert(`Woooo ${name.toUpperCase()} working now with some more changes...`)
     }
     return (

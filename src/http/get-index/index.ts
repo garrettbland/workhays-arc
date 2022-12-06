@@ -1,4 +1,3 @@
-// // learn more about HTTP functions here: https://arc.codes/http
 import indexFile from './index.html'
 import { Template } from '@architect/views/template'
 import { tables } from '@architect/functions'
