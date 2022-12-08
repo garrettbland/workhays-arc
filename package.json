@@ -19,7 +19,6 @@
         "@architect/architect": "^10.7.3",
         "@architect/plugin-typescript": "^0.3.0",
         "@faker-js/faker": "^7.6.0",
-        "@tsconfig/svelte": "^3.0.0",
         "@types/jest": "^29.2.3",
         "@types/react": "^18.0.25",
         "@types/react-dom": "^18.0.8",
@@ -28,7 +27,6 @@
         "jest": "^29.3.1",
         "npm-run-all": "^4.1.5",
         "parcel": "^2.8.0",
-        "parcel-transformer-svelte": "^1.2.3",
         "prettier": "^2.7.1",
         "process": "^0.11.10",
         "react": "^18.2.0",
@@ -45,7 +43,7 @@
             "distDir": "./public"
         },
         "contact": {
-            "source": "./src/app/contact/index.js",
+            "source": "./src/app/contact/index.tsx",
             "distDir": "./public"
         }
     },

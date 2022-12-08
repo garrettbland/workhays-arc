@@ -1,6 +1,6 @@
 {
-    "extends": "@tsconfig/svelte/tsconfig.json",
     "compilerOptions": {
+        "strict": true,
         "baseUrl": ".",
         "jsx": "react-jsx",
         "paths": {
