@@ -24,7 +24,7 @@ Getting started instructions coming soon...
 ├── src/
 │   ├── app/ // Frontend Javascript
 │   │   ├── admin/ // React Admin Application
-│   │   ├── contact/ // Svelte Contact Application
+│   │   ├── contact/ // React Contact Application
 │   ├── http/ // Arc HTTP endpoints
 │   ├── style/ // Site wide css
 │   ├── types/ // Typings for project
