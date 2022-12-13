@@ -6,6 +6,7 @@ get /
 get /contact
 get /jobs/:jobId
 get /admin
+post /api/contact
 
 @aws
 profile architect # local aws named profile used to deploy from local machine

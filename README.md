@@ -42,6 +42,15 @@ Getting started instructions coming soon...
 └── 'typings.d.ts' // Project declaration file
 ```
 
+### Adding HTTP Endpoints
+
+1. Add `@http` entry to `app.arc`
+2. Run `npx arc init`
+    1. Validate that the new directory has been created in `src/http`
+    2. From inside the new directory, run `echo "{}" > package.json && touch index.ts`
+3. Update new `index.ts` file with some code
+4. Start local sandbox to ensure new endpoint is working with `npm run dev`
+
 ### Deploying
 
 More coming soon...
