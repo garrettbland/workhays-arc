@@ -1,14 +1,10 @@
 /**
- * Custom Esbuild configuration. A custom loader for .html files
- * is added to be treated as text, rather than a raw file. This way
- * the contents get bundled directly into the build js files for
- * Lambdas to execute. We don't need to read any files this way as well.
+ * Custom Esbuild configuration
  *
- * Setting watch to true to enable auto rebuild when .html files change.
- * This is 'true' by default, but for some reason wasn't triggering with
- * .html file changes.
+ * Probably not needed anymore, leftover custom config
+ * for when HTML files existed in this project. Leaving here
+ * incase we want to utilize future esbuild options.
  */
 module.exports = {
-    loader: { '.html': 'text' },
     watch: true,
 }

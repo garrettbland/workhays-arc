@@ -20,24 +20,16 @@ Getting started instructions coming soon...
 │   │   ├── 'index.ts' // Writes database to ./sandbox-seed.json
 │   │   └── 'jobs.ts' // Fake jobs
 │   ├── 'esbuild.js' // Custom esbuild config
-│   └── 'htmlLoader.js' // Custom loader for esbuild
 ├── src/
-│   ├── app/ // Frontend Javascript
-│   │   ├── admin/ // React Admin Application
-│   │   ├── contact/ // React Contact Application
 │   ├── http/ // Arc HTTP endpoints
-│   ├── style/ // Site wide css
 │   ├── types/ // Typings for project
-│   └── views/ // Shared code for GET http requests
 ├── '.gitignore' // Ignore files from SCM
-├── '.parcelrc' // Parcel bundler config
 ├── 'app.arc' // Architect config
 ├── 'jest.config.js' // Jest testing config
 ├── 'package-lock.json' // Dependency locking
 ├── 'package.json' // Project dependencies, scripts, etc
 ├── 'preferences.arc' // *Ignored from git, defines secrets
 ├── 'README.md' // This file
-├── 'tailwind.config.js' // Tailwind CSS config
 ├── 'tsconfig.json' // Project Typescript config
 └── 'typings.d.ts' // Project declaration file
 ```
@@ -50,6 +42,14 @@ Getting started instructions coming soon...
     2. From inside the new directory, run `echo "{}" > package.json && touch index.ts`
 3. Update new `index.ts` file with some code
 4. Start local sandbox to ensure new endpoint is working with `npm run dev`
+
+### Hydrating
+
+During development (`npm run dev`) Arc will hydrate and make sure all functions
+have necessary dependencies installed. `npm run hydrate` will copy all shared
+code into @http functions. This can be useful for testing or CI.
+
+[arc hydrate docs](https://arc.codes/docs/en/reference/cli/hydrate)
 
 ### Deploying
 
