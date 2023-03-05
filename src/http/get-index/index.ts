@@ -22,6 +22,12 @@ export const handler = async () => {
                 <p>
                   Returns all jobs
                 </p>
+                <h4>Available Query Parameters</h4>
+                <p>
+                  <ul>
+                    <li><strong>limit</strong> - Set limit on returned results. Defaults to 15</li>
+                  </ul>
+                </p>
                 <h4>Example Usage</h4>
                 <pre>
                   <code>

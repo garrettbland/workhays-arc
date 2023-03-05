@@ -4,6 +4,7 @@ workhays
 # Http endpoings
 @http
 get /
+get /jobs
 get /jobs/:jobId
 post /api/contact
 any /*
