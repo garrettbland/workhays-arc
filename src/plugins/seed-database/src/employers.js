@@ -1,4 +1,5 @@
-import { faker } from '@faker-js/faker'
+// import { faker } from '@faker-js/faker'
+const { faker } = require('@faker-js/faker')
 
 const employerWIP = {
     PK: '<id>',
@@ -9,7 +10,7 @@ const employerWIP = {
 }
 
 const AVAILABLE_STATUSES = ['ACTIVE', 'PENDING']
-export const employers = [...Array(20)].map(() => {
+const employers = [...Array(20)].map(() => {
     const employerStatus = faker.helpers.arrayElement(AVAILABLE_STATUSES)
     return {
         PK: faker.datatype.uuid(), // unique id
@@ -19,3 +20,7 @@ export const employers = [...Array(20)].map(() => {
         title: faker.company.name(), // employer name
     }
 })
+
+module.exports = {
+    employers,
+}

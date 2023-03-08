@@ -29,8 +29,6 @@ export const handler = async (req: HttpRequest) => {
         },
     })
 
-    console.log(Number(req.queryStringParameters?.limit))
-
     const activeJobs = await workhaysTable.query({
         IndexName: 'GSI1',
         KeyConditionExpression: 'GSI1PK = :activeJob and GSI1SK >= :todaysDate',

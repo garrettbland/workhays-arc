@@ -14,15 +14,11 @@ Getting started instructions coming soon...
 
 ```js
 ├── public/ // Public files that are copied to s3 bucket
-├── scripts/
-│   ├── seeds/ // Local sandbox database mocking
-│   │   ├── 'employer.ts' // Fake employers
-│   │   ├── 'index.ts' // Writes database to ./sandbox-seed.json
-│   │   └── 'jobs.ts' // Fake jobs
-│   ├── 'esbuild.js' // Custom esbuild config
 ├── src/
 │   ├── http/ // Arc HTTP endpoints
 │   ├── types/ // Typings for project
+│   ├── plugins/ // Arc local plugins
+│       └── seed-database/ // Add's fake data for development
 ├── '.gitignore' // Ignore files from SCM
 ├── 'app.arc' // Architect config
 ├── 'jest.config.js' // Jest testing config
@@ -54,3 +50,21 @@ code into @http functions. This can be useful for testing or CI.
 ### Deploying
 
 More coming soon...
+
+### Environment Variables
+
+Create a `preferences.arc` file in the root directory. This file is ignored by git and is not commited. The `@env` pragma is used so we can use different environment variables for different environment. Example below.
+
+```
+# preferences.arc
+
+@env
+testing
+  ARC_APP_SECRET "dsfdfsa012864"
+
+staging
+  ARC_APP_SECRET "sdf9023490ds"
+
+production
+  ARC_APP_SECRET "dfskdsf02032"
+```

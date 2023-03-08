@@ -24,10 +24,10 @@ prune true
 # Adds support for typescript to arc. Builds files use ESbuild and output to ./.build
 @plugins
 architect/plugin-typescript
+seed-database
 
 # Typescript esbuild config location
 @typescript
-esbuild-config scripts/esbuild.js
 
 # Allows lambdas to share code. Automatically gets copied into all functions
 # Usage: import { x } from '@architect/shared/<filename>'

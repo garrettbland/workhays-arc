@@ -3,8 +3,8 @@
  *
  * WIP with access patterns...
  */
-import { faker } from '@faker-js/faker'
-import { employers } from './employers'
+const { faker } = require('@faker-js/faker')
+const { employers } = require('./employers')
 
 const jobWIP = {
     PK: '<id>',
@@ -86,7 +86,7 @@ const userExample = {
 const JOB_STATUS = ['ACTIVE', 'EXPIRED', 'INACTIVE', 'ARCHIVED']
 const EMPLOYER_IDs = employers.map((employer) => employer.PK)
 
-export const jobs = [...Array(50)].map(() => {
+const jobs = [...Array(50)].map(() => {
     const jobStatus = faker.helpers.arrayElement(JOB_STATUS)
     return {
         PK: faker.datatype.uuid(), // unique id
@@ -98,6 +98,10 @@ export const jobs = [...Array(50)].map(() => {
         title: faker.name.jobTitle(), // job title
     }
 })
+
+module.exports = {
+    jobs,
+}
 
 // module.exports = [
 //     {

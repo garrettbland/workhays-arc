@@ -5,8 +5,8 @@
     "scripts": {
         "arc-init": "npx arc init",
         "prepare-seeds": "npx ts-node scripts/seeds",
-        "dev": "npm run prepare-seeds && run-p dev:**",
-        "dev:arc": "npx arc sandbox",
+        "dev:old": "npm run prepare-seeds && run-p dev:**",
+        "dev": "npx arc sandbox",
         "test": "jest",
         "deploy": "npx arc deploy --tags project=workhays-staging --verbose",
         "deploy-prod": "npx arc deploy --production --tags project=workhays-production --verbose",
