@@ -69,3 +69,11 @@ staging
 production
   ARC_APP_SECRET "dfskdsf02032"
 ```
+
+### Development
+
+To get startd, clone this repo, run `npm install`, and then `npm run dev`. This will start the local Arc sandbox running a local dynamo database with faked data (see `src/plugins/seed-database` plugin) and local http endpoints. This also starts the web app proceccesses (client side bundle, css files, etc) and will rebuild when there are changes.
+
+### How the web applications works
+
+Coming soon...Will give more details on React SSR

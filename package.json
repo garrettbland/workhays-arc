@@ -19,7 +19,7 @@
         "hydrate": "npx arc hydrate"
     },
     "devDependencies": {
-        "@architect/architect": "^10.10.2",
+        "@architect/architect": "^10.10.3",
         "@architect/plugin-typescript": "^0.3.0",
         "@faker-js/faker": "^7.6.0",
         "@types/jest": "^29.2.3",

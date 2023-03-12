@@ -2926,19 +2926,23 @@ $parcel$ReactRefreshHelpers$0db6.prelude(module);
 try {
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _client = require("react-dom/client");
-var _app = require("../app");
+var _app = require("../App");
 var _reactRouterDom = require("react-router-dom");
-(0, _client.hydrateRoot)(document.getElementById("root"), /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
+/**
+ * Client side react that runs in the browser to hyrdate
+ * the server rendered React. Notice this is using `hydrateRoot`
+ * and not the typical React `createRoot` method
+ */ (0, _client.hydrateRoot)(document.getElementById("root"), /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.BrowserRouter), {
     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _app.App), {
         name: window.__INITIAL_DATA__.name
     }, void 0, false, {
         fileName: "src/http/get-catchall/src/browser/index.tsx",
-        lineNumber: 8,
+        lineNumber: 13,
         columnNumber: 9
     }, undefined)
 }, void 0, false, {
     fileName: "src/http/get-catchall/src/browser/index.tsx",
-    lineNumber: 7,
+    lineNumber: 12,
     columnNumber: 5
 }, undefined));
 
@@ -2947,7 +2951,7 @@ var _reactRouterDom = require("react-router-dom");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"63L78","react-dom/client":"67jLf","../app":"2msHk","react-router-dom":"eUbxs","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"63L78":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"63L78","react-dom/client":"67jLf","react-router-dom":"eUbxs","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../App":"7vr3C"}],"63L78":[function(require,module,exports) {
 "use strict";
 module.exports = require("d7a529ff91480fe2");
 
@@ -27132,58 +27136,7 @@ module.exports = require("74f1282c57eac078");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"2msHk":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$1318 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$1318.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "App", ()=>App);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _reactRouterDom = require("react-router-dom");
-var _routes = require("./routes");
-var _notFound = require("./NotFound");
-const App = ({ name  })=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Routes), {
-            children: [
-                (0, _routes.routes).map(({ path , component: C  })=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                        path: path,
-                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(C, {}, void 0, false, void 0, void 0)
-                    }, path, false, {
-                        fileName: "src/http/get-catchall/src/app.tsx",
-                        lineNumber: 10,
-                        columnNumber: 21
-                    }, undefined)),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
-                    path: "*",
-                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _notFound.NotFound), {}, void 0, false, void 0, void 0)
-                }, void 0, false, {
-                    fileName: "src/http/get-catchall/src/app.tsx",
-                    lineNumber: 12,
-                    columnNumber: 17
-                }, undefined)
-            ]
-        }, void 0, true, {
-            fileName: "src/http/get-catchall/src/app.tsx",
-            lineNumber: 8,
-            columnNumber: 13
-        }, undefined)
-    }, void 0, false);
-};
-_c = App;
-var _c;
-$RefreshReg$(_c, "App");
-
-  $parcel$ReactRefreshHelpers$1318.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"63L78","react-router-dom":"eUbxs","./routes":"laIlQ","./NotFound":"3M1n1","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"eUbxs":[function(require,module,exports) {
+},{}],"eUbxs":[function(require,module,exports) {
 /**
  * React Router DOM v6.9.0
  *
@@ -32358,61 +32311,7 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"laIlQ":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "routes", ()=>routes);
-var _home = require("./Home");
-var _about = require("./About");
-const routes = [
-    {
-        path: "/",
-        component: (0, _home.Home)
-    },
-    {
-        path: "/about",
-        component: (0, _about.About)
-    }
-];
-
-},{"./Home":"3VGU0","./About":"ak84V","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3VGU0":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$1cb9 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$1cb9.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "Home", ()=>Home);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _s = $RefreshSig$();
-const Home = ()=>{
-    _s();
-    (0, _react.useEffect)(()=>{
-        console.log("Rendering home page...");
-    }, []);
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "text-pink-600",
-        children: "Home Page"
-    }, void 0, false, {
-        fileName: "src/http/get-catchall/src/Home.tsx",
-        lineNumber: 7,
-        columnNumber: 12
-    }, undefined);
-};
-_s(Home, "OD7bBpZva5O2jO+Puf00hKivP7c=");
-_c = Home;
-var _c;
-$RefreshReg$(_c, "Home");
-
-  $parcel$ReactRefreshHelpers$1cb9.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"63L78","react":"kUSG2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"km3Ru":[function(require,module,exports) {
+},{}],"km3Ru":[function(require,module,exports) {
 "use strict";
 var Refresh = require("9cc428c04b640884");
 function debounce(func, delay) {
@@ -32545,7 +32444,112 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"9cc428c04b640884":"786KC"}],"ak84V":[function(require,module,exports) {
+},{"9cc428c04b640884":"786KC"}],"7vr3C":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$f03a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$f03a.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "App", ()=>App);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _reactRouterDom = require("react-router-dom");
+var _routes = require("./routes");
+var _notFound = require("./NotFound");
+const App = ({ name  })=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Routes), {
+            children: [
+                (0, _routes.routes).map(({ path , component: C  })=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                        path: path,
+                        element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(C, {}, void 0, false, void 0, void 0)
+                    }, path, false, {
+                        fileName: "src/http/get-catchall/src/App.tsx",
+                        lineNumber: 10,
+                        columnNumber: 21
+                    }, undefined)),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Route), {
+                    path: "*",
+                    element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _notFound.NotFound), {}, void 0, false, void 0, void 0)
+                }, void 0, false, {
+                    fileName: "src/http/get-catchall/src/App.tsx",
+                    lineNumber: 12,
+                    columnNumber: 17
+                }, undefined)
+            ]
+        }, void 0, true, {
+            fileName: "src/http/get-catchall/src/App.tsx",
+            lineNumber: 8,
+            columnNumber: 13
+        }, undefined)
+    }, void 0, false);
+};
+_c = App;
+var _c;
+$RefreshReg$(_c, "App");
+
+  $parcel$ReactRefreshHelpers$f03a.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"63L78","react-router-dom":"eUbxs","./routes":"laIlQ","./NotFound":"3M1n1","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"laIlQ":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "routes", ()=>routes);
+var _home = require("./Home");
+var _about = require("./About");
+const routes = [
+    {
+        path: "/",
+        component: (0, _home.Home)
+    },
+    {
+        path: "/about",
+        component: (0, _about.About)
+    }
+];
+
+},{"./Home":"3VGU0","./About":"ak84V","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3VGU0":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$1cb9 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$1cb9.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Home", ()=>Home);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _s = $RefreshSig$();
+const Home = ()=>{
+    _s();
+    (0, _react.useEffect)(()=>{
+        console.log("Rendering home page...");
+    }, []);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "text-pink-600",
+        children: "Home Page"
+    }, void 0, false, {
+        fileName: "src/http/get-catchall/src/Home.tsx",
+        lineNumber: 7,
+        columnNumber: 12
+    }, undefined);
+};
+_s(Home, "OD7bBpZva5O2jO+Puf00hKivP7c=");
+_c = Home;
+var _c;
+$RefreshReg$(_c, "Home");
+
+  $parcel$ReactRefreshHelpers$1cb9.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"63L78","react":"kUSG2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"ak84V":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$355b = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
