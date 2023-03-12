@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.0",
+    "@architect/functions": "^5.4.0",
+    "next": "^13.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.9.0"
+  }
+}

@@ -16,6 +16,7 @@ Getting started instructions coming soon...
 ├── public/ // Public files that are copied to s3 bucket
 ├── src/
 │   ├── http/ // Arc HTTP endpoints
+│       └── get-catchall/ // React SSR
 │   ├── types/ // Typings for project
 │   ├── plugins/ // Arc local plugins
 │       └── seed-database/ // Add's fake data for development

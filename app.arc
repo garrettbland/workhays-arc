@@ -3,9 +3,9 @@ workhays
 
 # Http endpoings
 @http
-get /
-get /jobs
-get /jobs/:jobId
+get /api/v1/jobs
+get /api/v1/jobs/:jobId
+get /*
 post /api/contact
 any /*
 
@@ -28,6 +28,7 @@ seed-database
 
 # Typescript esbuild config location
 @typescript
+esbuild-config esbuild.config.js
 
 # Allows lambdas to share code. Automatically gets copied into all functions
 # Usage: import { x } from '@architect/shared/<filename>'
