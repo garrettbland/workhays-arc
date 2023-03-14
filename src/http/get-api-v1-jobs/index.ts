@@ -1,9 +1,9 @@
-import { tables } from '@architect/functions'
+import { http, tables } from '@architect/functions'
 import { HttpRequest } from '@architect/functions/types/http'
 
 const DEFAULT_LIMIT = 15
 
-export const handler = async (req: HttpRequest) => {
+const main = async (req: HttpRequest) => {
     let client = await tables()
     let workhaysTable = client.workhays
 
@@ -50,3 +50,5 @@ export const handler = async (req: HttpRequest) => {
         body: '<div>Oh hi this is a API</div>',
     }
 }
+
+export const handler = http.async(main)

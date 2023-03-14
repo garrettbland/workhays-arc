@@ -4,7 +4,6 @@ import { routes } from './routes'
 /**
  * Initial App to be rendered on both client and server.
  */
-
 export const App = ({ serverData }: { serverData?: any }) => {
     return (
         <>

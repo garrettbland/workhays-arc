@@ -1,5 +1,11 @@
+import axios from 'axios'
+
 export const getSomeData = async () => {
-    return Promise.resolve({
-        name: 'garrett',
+    const { data } = await axios.get('/api/v1/jobs', {
+        baseURL: 'http://localhost:3333',
     })
+
+    return {
+        data,
+    }
 }
