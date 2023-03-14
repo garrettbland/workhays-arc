@@ -1,4 +1,5 @@
 import { Route } from './types'
+import { getSomeData } from './utils/fetchData'
 
 /**
  * Pages
@@ -15,6 +16,7 @@ export const routes: Route[] = [
     {
         path: '/',
         page: Home,
+        fetchInitialData: (path) => getSomeData(),
     },
     {
         path: '/about',

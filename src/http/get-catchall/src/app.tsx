@@ -5,12 +5,12 @@ import { routes } from './routes'
  * Initial App to be rendered on both client and server.
  */
 
-export const App = ({ name }: { name?: string }) => {
+export const App = ({ serverData }: { serverData?: any }) => {
     return (
         <>
             <Routes>
                 {routes.map(({ path, page: Page }) => (
-                    <Route key={path} path={path} element={<Page />} />
+                    <Route key={path} path={path} element={<Page serverData={serverData} />} />
                 ))}
             </Routes>
         </>

@@ -2,15 +2,14 @@ import { FC } from 'react'
 
 declare global {
     interface Window {
-        __INITIAL_DATA__: {
-            name: string
-        }
+        __SERVER_DATA__: any
     }
 }
 
 interface Route {
     path: string
-    page: FC
+    page: FC<any>
+    fetchInitialData?: (path: string) => Promise<any>
 }
 
 interface Head {
