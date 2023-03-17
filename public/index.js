@@ -2503,10 +2503,10 @@ process.umask = function() {
     return 0;
 };
 
-},{}],"iYKu1":[function(require,module,exports) {
+},{}],"gx3lW":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
-var HMR_PORT = 56909;
+var HMR_PORT = 50380;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
 module.bundle.HMR_BUNDLE_ID = "13285ab0ae3b3f30";
@@ -2937,12 +2937,12 @@ var _reactRouterDom = require("react-router-dom");
         serverData: window.__SERVER_DATA__
     }, void 0, false, {
         fileName: "src/http/get-catchall/src/browser/index.tsx",
-        lineNumber: 13,
+        lineNumber: 14,
         columnNumber: 9
     }, undefined)
 }, void 0, false, {
     fileName: "src/http/get-catchall/src/browser/index.tsx",
-    lineNumber: 12,
+    lineNumber: 13,
     columnNumber: 5
 }, undefined));
 
@@ -36525,6 +36525,7 @@ parcelHelpers.export(exports, "Home", ()=>Home);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _head = require("../components/Head");
+var _reactRouterDom = require("react-router-dom");
 var _s = $RefreshSig$();
 const Home = ({ serverData  })=>{
     _s();
@@ -36570,6 +36571,15 @@ const Home = ({ serverData  })=>{
                 fileName: "src/http/get-catchall/src/pages/Home.tsx",
                 lineNumber: 19,
                 columnNumber: 13
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Link), {
+                to: "about?jobid=1234",
+                className: "text-blue-500 underline",
+                children: "Go to About"
+            }, void 0, false, {
+                fileName: "src/http/get-catchall/src/pages/Home.tsx",
+                lineNumber: 20,
+                columnNumber: 13
             }, undefined)
         ]
     }, void 0, true);
@@ -36584,7 +36594,7 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"63L78","react":"kUSG2","../components/Head":"hkxk8","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hkxk8":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"63L78","react":"kUSG2","../components/Head":"hkxk8","react-router-dom":"eUbxs","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hkxk8":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$f9d8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -38396,15 +38406,52 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "About", ()=>About);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-const About = ()=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        children: "About Page"
-    }, void 0, false, {
-        fileName: "src/http/get-catchall/src/pages/About.tsx",
-        lineNumber: 2,
-        columnNumber: 12
-    }, undefined);
+var _react = require("react");
+var _fetchData = require("../utils/fetchData");
+var _s = $RefreshSig$();
+const About = ({ serverData ={}  })=>{
+    _s();
+    const initialItems = serverData?.data?.Items ?? [];
+    const [isLoading, setLoading] = (0, _react.useState)(false);
+    const [items, setItems] = (0, _react.useState)(initialItems);
+    (0, _react.useEffect)(()=>{
+        console.log(`Current server data: ${JSON.stringify(serverData)}`);
+        if (initialItems) {
+            console.log("Not loaded from server...call api");
+            setLoading(true);
+            (0, _fetchData.getSomeData)().then((data)=>{
+                setItems(data?.data?.Items);
+                setLoading(false);
+            });
+        }
+    }, []);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: "Jobs"
+            }, void 0, false, {
+                fileName: "src/http/get-catchall/src/pages/About.tsx",
+                lineNumber: 24,
+                columnNumber: 13
+            }, undefined),
+            isLoading && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                children: "Loading..."
+            }, void 0, false, {
+                fileName: "src/http/get-catchall/src/pages/About.tsx",
+                lineNumber: 25,
+                columnNumber: 27
+            }, undefined),
+            items.map((item)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    children: item.PK
+                }, item.PK, false, {
+                    fileName: "src/http/get-catchall/src/pages/About.tsx",
+                    lineNumber: 27,
+                    columnNumber: 17
+                }, undefined))
+        ]
+    }, void 0, true);
 };
+_s(About, "/8ZSLILH0D1MGRnKFKxBkFkf8w4=");
 _c = About;
 var _c;
 $RefreshReg$(_c, "About");
@@ -38414,7 +38461,7 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"63L78","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lqdVC":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"63L78","react":"kUSG2","../utils/fetchData":"hXWfa","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lqdVC":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$fd79 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -38443,6 +38490,6 @@ $RefreshReg$(_c, "NotFound");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"63L78","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["1xC6H","iYKu1","afCNv"], "afCNv", "parcelRequiredb40")
+},{"react/jsx-dev-runtime":"63L78","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["1xC6H","gx3lW","afCNv"], "afCNv", "parcelRequiredb40")
 
 //# sourceMappingURL=index.js.map

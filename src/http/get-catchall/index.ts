@@ -3,6 +3,7 @@ import { http } from '@architect/functions'
 import { renderReact } from './src/server'
 
 const main = async (req: HttpRequest, res: HttpResponse) => {
+    console.log('===> Returning server response...')
     return {
         statusCode: 200,
         headers: {
