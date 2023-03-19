@@ -1,8 +1,7 @@
-// let { join } = require('path')
+const { join } = require('path')
 const { updater } = require('@architect/utils')
-const { seed } = require('./src')
 
-const update = updater('Database')
+const update = updater('Web')
 
 module.exports = {
     // Setters
@@ -10,6 +9,13 @@ module.exports = {
         /**
          * Pragmas
          */
+        http: ({ arc, inventory }) => {
+            return {
+                method: 'get',
+                path: '/*',
+                src: join('src', 'web'),
+            }
+        },
         // @events
         // events: ({ arc, inventory }) => {
         //   return {
@@ -105,14 +111,14 @@ module.exports = {
     sandbox: {
         // Startup operations
         start: async ({ arc, inventory, invoke }) => {
-            update.start('Creating fake data')
-            seed()
-            update.done('Generated seed data for sandbox')
+            update.start('Starting React SSR')
+
+            update.done('Created route at / and watch react ssr')
         },
 
         // Project filesystem watcher
         // watcher: async ({ filename, event, inventory, invoke }) => {
-        //   // Act on filesystem events within your project
+        //     // Act on filesystem events within your project
         // },
 
         // Shutdown operations

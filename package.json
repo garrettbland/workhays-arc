@@ -3,14 +3,14 @@
     "version": "0.0.1",
     "description": "Workhays.com",
     "scripts": {
-        "clean": "rimraf .parcel-cache dist",
+        "disabled:clean": "rimraf .parcel-cache dist",
         "arc-init": "npx arc init",
         "prepare-seeds": "npx ts-node scripts/seeds",
-        "dev": "npm run clean && run-p dev:**",
+        "dev": "run-p dev:**",
         "dev:arc": "npx arc sandbox",
-        "dev:admin": "npx parcel watch",
-        "dev:tailwind": "npx tailwindcss -i src/http/get-catchall/src/tailwind.css -o public/style.css -w",
-        "build": "npm run clean && run-p build:**",
+        "disabled:dev:admin": "npx parcel watch",
+        "disabled:dev:tailwind": "npx tailwindcss -i src/web/src/tailwind.css -o public/style.css -w",
+        "build": "run-p build:**",
         "build:admin": "npx parcel build",
         "build:tailwind": "npx tailwindcss -i src/http/get-catchall/src/tailwind.css -o public/style.css --minify",
         "test": "jest",
@@ -21,6 +21,7 @@
     "devDependencies": {
         "@architect/architect": "^10.10.3",
         "@architect/plugin-typescript": "^0.3.0",
+        "@architect/utils": "^3.1.5",
         "@faker-js/faker": "^7.6.0",
         "@types/jest": "^29.2.3",
         "@types/react-dom": "^18.0.11",
@@ -32,7 +33,7 @@
         "parcel": "^2.8.3",
         "prettier": "^2.7.1",
         "process": "^0.11.10",
-        "rimraf": "^3.0.2",
+        "rimraf": "^4.4.0",
         "tailwindcss": "^3.2.7",
         "ts-jest": "^29.0.3",
         "ts-node": "^10.9.1",
@@ -40,7 +41,7 @@
     },
     "targets": {
         "admin": {
-            "source": "./src/http/get-catchall/src/browser/index.tsx",
+            "source": "./src/web/src/browser/index.tsx",
             "distDir": "./public"
         }
     },

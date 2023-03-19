@@ -1,8 +1,15 @@
-// let { join } = require('path')
+const { dirname, resolve } = require('path')
+const { mkdir } = require('fs/promises')
 const { updater } = require('@architect/utils')
-const { seed } = require('./src')
+const { startWatcher } = require('./cli')
 
-const update = updater('Database')
+/**
+ * Create 'updater' to have console logging look
+ * like Arc's typical messages
+ */
+const update = updater('TailwindCSS')
+
+let tailwindProcess
 
 module.exports = {
     // Setters
@@ -105,9 +112,10 @@ module.exports = {
     sandbox: {
         // Startup operations
         start: async ({ arc, inventory, invoke }) => {
-            update.start('Creating fake data')
-            seed()
-            update.done('Generated seed data for sandbox')
+            //inventory.inv._project.cwd
+            update.start('Starting watcher...')
+            tailwindProcess = await startWatcher({ update })
+            update.done('Started watcher')
         },
 
         // Project filesystem watcher
@@ -116,8 +124,11 @@ module.exports = {
         // },
 
         // Shutdown operations
-        // end: async ({ arc, inventory, invoke }) => {
-        //   // Run operations upon Sandbox shutdown
-        // },
+        end: async ({ arc, inventory, invoke }) => {
+            // Run operations upon Sandbox shutdown
+            update.start('Stopping watcher...')
+            tailwindProcess.kill()
+            update.done('Stopped watcher...')
+        },
     },
 }

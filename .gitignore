@@ -4,8 +4,6 @@ node_modules/
 dist
 
 # Public directory auto built files from development
-public/admin/*
-public/contact/*
 public/style.css
 
 # .build directory is where Architech transpiles our lambdas using esbuild

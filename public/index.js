@@ -2503,13 +2503,13 @@ process.umask = function() {
     return 0;
 };
 
-},{}],"gx3lW":[function(require,module,exports) {
+},{}],"iML65":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
-var HMR_PORT = 50380;
+var HMR_PORT = 59274;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "13285ab0ae3b3f30";
+module.bundle.HMR_BUNDLE_ID = "4f3037c27bf6f3a8";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, globalThis, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -2917,11 +2917,11 @@ function hmrAccept(bundle, id) {
     });
 }
 
-},{}],"afCNv":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$0db6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"aYd7Z":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$7d9f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$0db6.prelude(module);
+$parcel$ReactRefreshHelpers$7d9f.prelude(module);
 
 try {
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
@@ -2936,26 +2936,26 @@ var _reactRouterDom = require("react-router-dom");
     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _app.App), {
         serverData: window.__SERVER_DATA__
     }, void 0, false, {
-        fileName: "src/http/get-catchall/src/browser/index.tsx",
-        lineNumber: 14,
+        fileName: "src/web/src/browser/index.tsx",
+        lineNumber: 13,
         columnNumber: 9
     }, undefined)
 }, void 0, false, {
-    fileName: "src/http/get-catchall/src/browser/index.tsx",
-    lineNumber: 13,
+    fileName: "src/web/src/browser/index.tsx",
+    lineNumber: 12,
     columnNumber: 5
 }, undefined));
 
-  $parcel$ReactRefreshHelpers$0db6.postlude(module);
+  $parcel$ReactRefreshHelpers$7d9f.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"63L78","react-dom/client":"67jLf","../App":"7vr3C","react-router-dom":"eUbxs","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"63L78":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"c2fic","react-dom/client":"joTLl","../App":"6HLQA","react-router-dom":"dDJxH","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"c2fic":[function(require,module,exports) {
 "use strict";
-module.exports = require("d7a529ff91480fe2");
+module.exports = require("2c1180411227147");
 
-},{"d7a529ff91480fe2":"j8TQu"}],"j8TQu":[function(require,module,exports) {
+},{"2c1180411227147":"gOKqq"}],"gOKqq":[function(require,module,exports) {
 /**
  * @license React
  * react-jsx-dev-runtime.development.js
@@ -2967,7 +2967,7 @@ module.exports = require("d7a529ff91480fe2");
  */ "use strict";
 (function() {
     "use strict";
-    var React = require("8c14064532033dd8");
+    var React = require("3da9b56b6c88a04a");
     // ATTENTION
     // When adding new symbols to this file,
     // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
@@ -3786,11 +3786,11 @@ module.exports = require("d7a529ff91480fe2");
     exports.jsxDEV = jsxDEV$1;
 })();
 
-},{"8c14064532033dd8":"kUSG2"}],"kUSG2":[function(require,module,exports) {
+},{"3da9b56b6c88a04a":"jpU5c"}],"jpU5c":[function(require,module,exports) {
 "use strict";
-module.exports = require("d8197b41def14b7d");
+module.exports = require("6bbda6782606b83d");
 
-},{"d8197b41def14b7d":"4FUXU"}],"4FUXU":[function(require,module,exports) {
+},{"6bbda6782606b83d":"c38rf"}],"c38rf":[function(require,module,exports) {
 /**
  * @license React
  * react.development.js
@@ -5656,9 +5656,9 @@ module.exports = require("d8197b41def14b7d");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"67jLf":[function(require,module,exports) {
+},{}],"joTLl":[function(require,module,exports) {
 "use strict";
-var m = require("8774bdff228bff77");
+var m = require("59024e461c710b47");
 var i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
 exports.createRoot = function(c, o) {
     i.usingClientEntryPoint = true;
@@ -5677,7 +5677,7 @@ exports.hydrateRoot = function(c, h, o) {
     }
 };
 
-},{"8774bdff228bff77":"4EiNa"}],"4EiNa":[function(require,module,exports) {
+},{"59024e461c710b47":"a0VRg"}],"a0VRg":[function(require,module,exports) {
 "use strict";
 function checkDCE() {
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === "undefined" || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== "function") return;
@@ -5691,9 +5691,9 @@ function checkDCE() {
     // a false positive.
     throw new Error("^_^");
 }
-module.exports = require("96e893e1add48dd6");
+module.exports = require("f6bab4eb9b1b947a");
 
-},{"96e893e1add48dd6":"494gA"}],"494gA":[function(require,module,exports) {
+},{"f6bab4eb9b1b947a":"2L4iK"}],"2L4iK":[function(require,module,exports) {
 /**
  * @license React
  * react-dom.development.js
@@ -5706,8 +5706,8 @@ module.exports = require("96e893e1add48dd6");
 (function() {
     "use strict";
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
-    var React = require("bf06e8b389cdc702");
-    var Scheduler = require("38117b3bbbd91c1d");
+    var React = require("74bc5835224a9b47");
+    var Scheduler = require("7b9fa0d02822163e");
     var ReactSharedInternals = React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
     var suppressWarning = false;
     function setSuppressWarning(newSuppressWarning) {
@@ -26678,11 +26678,11 @@ module.exports = require("96e893e1add48dd6");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{"bf06e8b389cdc702":"kUSG2","38117b3bbbd91c1d":"1mGia"}],"1mGia":[function(require,module,exports) {
+},{"74bc5835224a9b47":"jpU5c","7b9fa0d02822163e":"dtKOO"}],"dtKOO":[function(require,module,exports) {
 "use strict";
-module.exports = require("74f1282c57eac078");
+module.exports = require("20c8cbf97bdc9fca");
 
-},{"74f1282c57eac078":"1iVWQ"}],"1iVWQ":[function(require,module,exports) {
+},{"20c8cbf97bdc9fca":"hKeXn"}],"hKeXn":[function(require,module,exports) {
 /**
  * @license React
  * scheduler.development.js
@@ -27136,11 +27136,11 @@ module.exports = require("74f1282c57eac078");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{}],"7vr3C":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$f03a = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"6HLQA":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$1548 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$f03a.prelude(module);
+$parcel$ReactRefreshHelpers$1548.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -27158,12 +27158,12 @@ const App = ({ serverData  })=>{
                         serverData: serverData
                     }, void 0, false, void 0, void 0)
                 }, path, false, {
-                    fileName: "src/http/get-catchall/src/App.tsx",
+                    fileName: "src/web/src/App.tsx",
                     lineNumber: 12,
                     columnNumber: 21
                 }, undefined))
         }, void 0, false, {
-            fileName: "src/http/get-catchall/src/App.tsx",
+            fileName: "src/web/src/App.tsx",
             lineNumber: 10,
             columnNumber: 13
         }, undefined)
@@ -27173,12 +27173,12 @@ _c = App;
 var _c;
 $RefreshReg$(_c, "App");
 
-  $parcel$ReactRefreshHelpers$f03a.postlude(module);
+  $parcel$ReactRefreshHelpers$1548.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"63L78","react-router-dom":"eUbxs","./routes":"46ZLu","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"eUbxs":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"c2fic","react-router-dom":"dDJxH","./routes":"1TWWn","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dDJxH":[function(require,module,exports) {
 /**
  * React Router DOM v6.9.0
  *
@@ -28070,7 +28070,7 @@ let savedScrollPositions = {};
     ]);
 }
 
-},{"react":"kUSG2","react-router":"2hL6W","@remix-run/router":"jWkqr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2hL6W":[function(require,module,exports) {
+},{"react":"jpU5c","react-router":"EVY0s","@remix-run/router":"1pxkM","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"EVY0s":[function(require,module,exports) {
 /**
  * React Router v6.9.0
  *
@@ -29207,7 +29207,7 @@ function createMemoryRouter(routes, opts) {
     }).initialize();
 } ///////////////////////////////////////////////////////////////////////////////
 
-},{"@remix-run/router":"jWkqr","react":"kUSG2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jWkqr":[function(require,module,exports) {
+},{"@remix-run/router":"1pxkM","react":"jpU5c","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1pxkM":[function(require,module,exports) {
 /**
  * @remix-run/router v1.4.0
  *
@@ -32353,7 +32353,7 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"46ZLu":[function(require,module,exports) {
+},{}],"1TWWn":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "routes", ()=>routes);
@@ -32379,7 +32379,7 @@ const routes = [
     }
 ];
 
-},{"./utils/fetchData":"hXWfa","./pages/Home":"YJHpJ","./pages/About":"fS5jn","./pages/NotFound":"lqdVC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hXWfa":[function(require,module,exports) {
+},{"./utils/fetchData":"j5QKE","./pages/Home":"lljUy","./pages/About":"hsn9G","./pages/NotFound":"eu0wy","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"j5QKE":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "getSomeData", ()=>getSomeData);
@@ -32394,7 +32394,7 @@ const getSomeData = async ()=>{
     };
 };
 
-},{"axios":"kSklE","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kSklE":[function(require,module,exports) {
+},{"axios":"dK3Fz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dK3Fz":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>(0, _axiosJsDefault.default));
@@ -32420,7 +32420,7 @@ var _axiosJsDefault = parcelHelpers.interopDefault(_axiosJs);
 // so that it can keep same with es module or cjs
 const { Axios , AxiosError , CanceledError , isCancel , CancelToken , VERSION , all , Cancel , isAxiosError , spread , toFormData , AxiosHeaders , HttpStatusCode , formToJSON , mergeConfig  } = (0, _axiosJsDefault.default);
 
-},{"./lib/axios.js":"iwEqf","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iwEqf":[function(require,module,exports) {
+},{"./lib/axios.js":"gnhh1","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gnhh1":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _utilsJs = require("./utils.js");
@@ -32508,7 +32508,7 @@ axios.default = axios;
 // this module should only have a default export
 exports.default = axios;
 
-},{"./utils.js":"4lCvm","./helpers/bind.js":"dS66t","./core/Axios.js":"6oGaY","./core/mergeConfig.js":"fTh9E","./defaults/index.js":"b0Yax","./helpers/formDataToJSON.js":"2ow2R","./cancel/CanceledError.js":"lhFm7","./cancel/CancelToken.js":"hAjat","./cancel/isCancel.js":"bK4ie","./env/data.js":"VXGEd","./helpers/toFormData.js":"gpa3O","./core/AxiosError.js":"atfAr","./helpers/spread.js":"4FoUV","./helpers/isAxiosError.js":"adYY5","./core/AxiosHeaders.js":"bB6gH","./helpers/HttpStatusCode.js":"9JerK","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4lCvm":[function(require,module,exports) {
+},{"./utils.js":"inGyc","./helpers/bind.js":"gUYgL","./core/Axios.js":"lcFhV","./core/mergeConfig.js":"1jJWq","./defaults/index.js":"fJJqo","./helpers/formDataToJSON.js":"3ZcKv","./cancel/CanceledError.js":"4pLpS","./cancel/CancelToken.js":"iuQam","./cancel/isCancel.js":"lraYL","./env/data.js":"5k16N","./helpers/toFormData.js":"g3VXJ","./core/AxiosError.js":"3JqOF","./helpers/spread.js":"llpPY","./helpers/isAxiosError.js":"1lgOx","./core/AxiosHeaders.js":"iESmb","./helpers/HttpStatusCode.js":"6wEmB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"inGyc":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _bindJs = require("./helpers/bind.js");
@@ -33055,7 +33055,7 @@ exports.default = {
     toJSONObject
 };
 
-},{"./helpers/bind.js":"dS66t","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dS66t":[function(require,module,exports) {
+},{"./helpers/bind.js":"gUYgL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gUYgL":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 "use strict";
@@ -33066,7 +33066,7 @@ function bind(fn, thisArg) {
 }
 exports.default = bind;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6oGaY":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lcFhV":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _utilsJs = require("./../utils.js");
@@ -33235,7 +33235,7 @@ const validators = (0, _validatorJsDefault.default).validators;
 });
 exports.default = Axios;
 
-},{"./../utils.js":"4lCvm","../helpers/buildURL.js":"9kcMC","./InterceptorManager.js":"ctSEu","./dispatchRequest.js":"4n1yq","./mergeConfig.js":"fTh9E","./buildFullPath.js":"ee3S0","../helpers/validator.js":"3WTQP","./AxiosHeaders.js":"bB6gH","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9kcMC":[function(require,module,exports) {
+},{"./../utils.js":"inGyc","../helpers/buildURL.js":"eKCWG","./InterceptorManager.js":"3oi8l","./dispatchRequest.js":"4IOXQ","./mergeConfig.js":"1jJWq","./buildFullPath.js":"2AdFg","../helpers/validator.js":"3Ndrw","./AxiosHeaders.js":"iESmb","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eKCWG":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _utilsJs = require("../utils.js");
@@ -33269,7 +33269,7 @@ function buildURL(url, params, options) {
 }
 exports.default = buildURL;
 
-},{"../utils.js":"4lCvm","../helpers/AxiosURLSearchParams.js":"gt1KB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gt1KB":[function(require,module,exports) {
+},{"../utils.js":"inGyc","../helpers/AxiosURLSearchParams.js":"2aU4p","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2aU4p":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _toFormDataJs = require("./toFormData.js");
@@ -33324,7 +33324,7 @@ prototype.toString = function toString(encoder) {
 };
 exports.default = AxiosURLSearchParams;
 
-},{"./toFormData.js":"gpa3O","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gpa3O":[function(require,module,exports) {
+},{"./toFormData.js":"g3VXJ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"g3VXJ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _utilsJs = require("../utils.js");
@@ -33334,7 +33334,7 @@ var _axiosErrorJsDefault = parcelHelpers.interopDefault(_axiosErrorJs);
 // temporary hotfix to avoid circular references until AxiosURLSearchParams is refactored
 var _formDataJs = require("../platform/node/classes/FormData.js");
 var _formDataJsDefault = parcelHelpers.interopDefault(_formDataJs);
-var Buffer = require("ac851097beeb4412").Buffer;
+var Buffer = require("e510e5f7cfe6ef49").Buffer;
 "use strict";
 /**
  * Determines if the given thing is a array or js object.
@@ -33489,7 +33489,7 @@ const predicates = (0, _utilsJsDefault.default).toFlatObject((0, _utilsJsDefault
 }
 exports.default = toFormData;
 
-},{"ac851097beeb4412":"fCgem","../utils.js":"4lCvm","../core/AxiosError.js":"atfAr","../platform/node/classes/FormData.js":"3Pyyc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fCgem":[function(require,module,exports) {
+},{"e510e5f7cfe6ef49":"fCgem","../utils.js":"inGyc","../core/AxiosError.js":"3JqOF","../platform/node/classes/FormData.js":"blt1X","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fCgem":[function(require,module,exports) {
 /*!
  * The buffer module from node.js, for the browser.
  *
@@ -34889,7 +34889,7 @@ exports.write = function(buffer, value, offset, isLE, mLen, nBytes) {
     buffer[offset + i - d] |= s * 128;
 };
 
-},{}],"atfAr":[function(require,module,exports) {
+},{}],"3JqOF":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _utilsJs = require("../utils.js");
@@ -34977,13 +34977,13 @@ AxiosError.from = (error, code, config, request, response, customProps)=>{
 };
 exports.default = AxiosError;
 
-},{"../utils.js":"4lCvm","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3Pyyc":[function(require,module,exports) {
+},{"../utils.js":"inGyc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"blt1X":[function(require,module,exports) {
 // eslint-disable-next-line strict
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 exports.default = null;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ctSEu":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3oi8l":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _utilsJs = require("./../utils.js");
@@ -35042,7 +35042,7 @@ class InterceptorManager {
 }
 exports.default = InterceptorManager;
 
-},{"./../utils.js":"4lCvm","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4n1yq":[function(require,module,exports) {
+},{"./../utils.js":"inGyc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4IOXQ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _transformDataJs = require("./transformData.js");
@@ -35099,7 +35099,7 @@ function dispatchRequest(config) {
 }
 exports.default = dispatchRequest;
 
-},{"./transformData.js":"dwKvU","../cancel/isCancel.js":"bK4ie","../defaults/index.js":"b0Yax","../cancel/CanceledError.js":"lhFm7","../core/AxiosHeaders.js":"bB6gH","../adapters/adapters.js":"l0hyh","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dwKvU":[function(require,module,exports) {
+},{"./transformData.js":"finlS","../cancel/isCancel.js":"lraYL","../defaults/index.js":"fJJqo","../cancel/CanceledError.js":"4pLpS","../core/AxiosHeaders.js":"iESmb","../adapters/adapters.js":"hSA1E","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"finlS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _utilsJs = require("./../utils.js");
@@ -35122,7 +35122,7 @@ function transformData(fns, response) {
 }
 exports.default = transformData;
 
-},{"./../utils.js":"4lCvm","../defaults/index.js":"b0Yax","../core/AxiosHeaders.js":"bB6gH","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"b0Yax":[function(require,module,exports) {
+},{"./../utils.js":"inGyc","../defaults/index.js":"fJJqo","../core/AxiosHeaders.js":"iESmb","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fJJqo":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _utilsJs = require("../utils.js");
@@ -35258,7 +35258,7 @@ const defaults = {
 });
 exports.default = defaults;
 
-},{"../utils.js":"4lCvm","../core/AxiosError.js":"atfAr","./transitional.js":"7C38Y","../helpers/toFormData.js":"gpa3O","../helpers/toURLEncodedForm.js":"f4V5s","../platform/index.js":"cazQz","../helpers/formDataToJSON.js":"2ow2R","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7C38Y":[function(require,module,exports) {
+},{"../utils.js":"inGyc","../core/AxiosError.js":"3JqOF","./transitional.js":"1lvSM","../helpers/toFormData.js":"g3VXJ","../helpers/toURLEncodedForm.js":"dB7pC","../platform/index.js":"khc35","../helpers/formDataToJSON.js":"3ZcKv","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1lvSM":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 "use strict";
@@ -35268,7 +35268,7 @@ exports.default = {
     clarifyTimeoutError: false
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"f4V5s":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dB7pC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _utilsJs = require("../utils.js");
@@ -35291,14 +35291,14 @@ function toURLEncodedForm(data, options) {
 }
 exports.default = toURLEncodedForm;
 
-},{"../utils.js":"4lCvm","./toFormData.js":"gpa3O","../platform/index.js":"cazQz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cazQz":[function(require,module,exports) {
+},{"../utils.js":"inGyc","./toFormData.js":"g3VXJ","../platform/index.js":"khc35","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"khc35":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>(0, _indexJsDefault.default));
 var _indexJs = require("./node/index.js");
 var _indexJsDefault = parcelHelpers.interopDefault(_indexJs);
 
-},{"./node/index.js":"c1IYq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"c1IYq":[function(require,module,exports) {
+},{"./node/index.js":"7cH5j","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7cH5j":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _urlsearchParamsJs = require("./classes/URLSearchParams.js");
@@ -35359,7 +35359,7 @@ exports.default = {
     ]
 };
 
-},{"./classes/URLSearchParams.js":"4KDX9","./classes/FormData.js":"4TVOs","./classes/Blob.js":"dClfg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4KDX9":[function(require,module,exports) {
+},{"./classes/URLSearchParams.js":"iLNIv","./classes/FormData.js":"j50u8","./classes/Blob.js":"dEaWs","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iLNIv":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _axiosURLSearchParamsJs = require("../../../helpers/AxiosURLSearchParams.js");
@@ -35367,19 +35367,19 @@ var _axiosURLSearchParamsJsDefault = parcelHelpers.interopDefault(_axiosURLSearc
 "use strict";
 exports.default = typeof URLSearchParams !== "undefined" ? URLSearchParams : (0, _axiosURLSearchParamsJsDefault.default);
 
-},{"../../../helpers/AxiosURLSearchParams.js":"gt1KB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4TVOs":[function(require,module,exports) {
+},{"../../../helpers/AxiosURLSearchParams.js":"2aU4p","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"j50u8":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 "use strict";
 exports.default = typeof FormData !== "undefined" ? FormData : null;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dClfg":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dEaWs":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 "use strict";
 exports.default = typeof Blob !== "undefined" ? Blob : null;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2ow2R":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3ZcKv":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _utilsJs = require("../utils.js");
@@ -35454,7 +35454,7 @@ var _utilsJsDefault = parcelHelpers.interopDefault(_utilsJs);
 }
 exports.default = formDataToJSON;
 
-},{"../utils.js":"4lCvm","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bB6gH":[function(require,module,exports) {
+},{"../utils.js":"inGyc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iESmb":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _utilsJs = require("../utils.js");
@@ -35650,7 +35650,7 @@ AxiosHeaders.accessor([
 (0, _utilsJsDefault.default).freezeMethods(AxiosHeaders);
 exports.default = AxiosHeaders;
 
-},{"../utils.js":"4lCvm","../helpers/parseHeaders.js":"h3JM2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"h3JM2":[function(require,module,exports) {
+},{"../utils.js":"inGyc","../helpers/parseHeaders.js":"3hJq6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3hJq6":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _utilsJs = require("./../utils.js");
@@ -35710,7 +35710,7 @@ const ignoreDuplicateOf = (0, _utilsJsDefault.default).toObjectSet([
     return parsed;
 };
 
-},{"./../utils.js":"4lCvm","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bK4ie":[function(require,module,exports) {
+},{"./../utils.js":"inGyc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lraYL":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 "use strict";
@@ -35719,7 +35719,7 @@ function isCancel(value) {
 }
 exports.default = isCancel;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lhFm7":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4pLpS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _axiosErrorJs = require("../core/AxiosError.js");
@@ -35745,7 +35745,7 @@ var _utilsJsDefault = parcelHelpers.interopDefault(_utilsJs);
 });
 exports.default = CanceledError;
 
-},{"../core/AxiosError.js":"atfAr","../utils.js":"4lCvm","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"l0hyh":[function(require,module,exports) {
+},{"../core/AxiosError.js":"3JqOF","../utils.js":"inGyc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hSA1E":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _utilsJs = require("../utils.js");
@@ -35796,7 +35796,7 @@ exports.default = {
     adapters: knownAdapters
 };
 
-},{"../utils.js":"4lCvm","./http.js":"3Pyyc","./xhr.js":"hTBcj","../core/AxiosError.js":"atfAr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hTBcj":[function(require,module,exports) {
+},{"../utils.js":"inGyc","./http.js":"blt1X","./xhr.js":"eWQFQ","../core/AxiosError.js":"3JqOF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eWQFQ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _utilsJs = require("./../utils.js");
@@ -35977,7 +35977,7 @@ exports.default = isXHRAdapterSupported && function(config) {
     });
 };
 
-},{"./../utils.js":"4lCvm","./../core/settle.js":"2cfmS","./../helpers/cookies.js":"axOZK","./../helpers/buildURL.js":"9kcMC","../core/buildFullPath.js":"ee3S0","./../helpers/isURLSameOrigin.js":"b7MLS","../defaults/transitional.js":"7C38Y","../core/AxiosError.js":"atfAr","../cancel/CanceledError.js":"lhFm7","../helpers/parseProtocol.js":"5VRLl","../platform/index.js":"cazQz","../core/AxiosHeaders.js":"bB6gH","../helpers/speedometer.js":"7GtHv","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2cfmS":[function(require,module,exports) {
+},{"./../utils.js":"inGyc","./../core/settle.js":"4WjWu","./../helpers/cookies.js":"kn8e1","./../helpers/buildURL.js":"eKCWG","../core/buildFullPath.js":"2AdFg","./../helpers/isURLSameOrigin.js":"iFg8u","../defaults/transitional.js":"1lvSM","../core/AxiosError.js":"3JqOF","../cancel/CanceledError.js":"4pLpS","../helpers/parseProtocol.js":"c9urf","../platform/index.js":"khc35","../core/AxiosHeaders.js":"iESmb","../helpers/speedometer.js":"8EICG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4WjWu":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _axiosErrorJs = require("./AxiosError.js");
@@ -35993,7 +35993,7 @@ function settle(resolve, reject, response) {
 }
 exports.default = settle;
 
-},{"./AxiosError.js":"atfAr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"axOZK":[function(require,module,exports) {
+},{"./AxiosError.js":"3JqOF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"kn8e1":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _utilsJs = require("./../utils.js");
@@ -36032,7 +36032,7 @@ function nonStandardBrowserEnv() {
     };
 }();
 
-},{"./../utils.js":"4lCvm","../platform/index.js":"cazQz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ee3S0":[function(require,module,exports) {
+},{"./../utils.js":"inGyc","../platform/index.js":"khc35","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2AdFg":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _isAbsoluteURLJs = require("../helpers/isAbsoluteURL.js");
@@ -36046,7 +36046,7 @@ function buildFullPath(baseURL, requestedURL) {
 }
 exports.default = buildFullPath;
 
-},{"../helpers/isAbsoluteURL.js":"9iZAc","../helpers/combineURLs.js":"5ktOS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9iZAc":[function(require,module,exports) {
+},{"../helpers/isAbsoluteURL.js":"4nVa8","../helpers/combineURLs.js":"cvAVz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4nVa8":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 "use strict";
@@ -36058,7 +36058,7 @@ function isAbsoluteURL(url) {
 }
 exports.default = isAbsoluteURL;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5ktOS":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cvAVz":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 "use strict";
@@ -36067,7 +36067,7 @@ function combineURLs(baseURL, relativeURL) {
 }
 exports.default = combineURLs;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"b7MLS":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iFg8u":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _utilsJs = require("./../utils.js");
@@ -36123,7 +36123,7 @@ function nonStandardBrowserEnv() {
     };
 }();
 
-},{"./../utils.js":"4lCvm","../platform/index.js":"cazQz","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5VRLl":[function(require,module,exports) {
+},{"./../utils.js":"inGyc","../platform/index.js":"khc35","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"c9urf":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 "use strict";
@@ -36133,7 +36133,7 @@ function parseProtocol(url) {
 }
 exports.default = parseProtocol;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7GtHv":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8EICG":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 "use strict";
@@ -36171,7 +36171,7 @@ parcelHelpers.defineInteropFlag(exports);
 }
 exports.default = speedometer;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fTh9E":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1jJWq":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _utilsJs = require("../utils.js");
@@ -36250,7 +36250,7 @@ function mergeConfig(config1, config2) {
 }
 exports.default = mergeConfig;
 
-},{"../utils.js":"4lCvm","./AxiosHeaders.js":"bB6gH","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3WTQP":[function(require,module,exports) {
+},{"../utils.js":"inGyc","./AxiosHeaders.js":"iESmb","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3Ndrw":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _dataJs = require("../env/data.js");
@@ -36324,13 +36324,13 @@ exports.default = {
     validators
 };
 
-},{"../env/data.js":"VXGEd","../core/AxiosError.js":"atfAr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"VXGEd":[function(require,module,exports) {
+},{"../env/data.js":"5k16N","../core/AxiosError.js":"3JqOF","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5k16N":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "VERSION", ()=>VERSION);
 const VERSION = "1.3.4";
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hAjat":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iuQam":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _canceledErrorJs = require("./CanceledError.js");
@@ -36417,7 +36417,7 @@ var _canceledErrorJsDefault = parcelHelpers.interopDefault(_canceledErrorJs);
 }
 exports.default = CancelToken;
 
-},{"./CanceledError.js":"lhFm7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4FoUV":[function(require,module,exports) {
+},{"./CanceledError.js":"4pLpS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"llpPY":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 "use strict";
@@ -36428,7 +36428,7 @@ function spread(callback) {
 }
 exports.default = spread;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"adYY5":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1lgOx":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _utilsJs = require("./../utils.js");
@@ -36439,7 +36439,7 @@ function isAxiosError(payload) {
 }
 exports.default = isAxiosError;
 
-},{"./../utils.js":"4lCvm","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9JerK":[function(require,module,exports) {
+},{"./../utils.js":"inGyc","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6wEmB":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 const HttpStatusCode = {
@@ -36512,11 +36512,11 @@ Object.entries(HttpStatusCode).forEach(([key, value])=>{
 });
 exports.default = HttpStatusCode;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"YJHpJ":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$1a1c = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lljUy":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$854d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$1a1c.prelude(module);
+$parcel$ReactRefreshHelpers$854d.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -36540,7 +36540,7 @@ const Home = ({ serverData  })=>{
                     "og:title": "Blue Fishhhhh"
                 }
             }, void 0, false, {
-                fileName: "src/http/get-catchall/src/pages/Home.tsx",
+                fileName: "src/web/src/pages/Home.tsx",
                 lineNumber: 11,
                 columnNumber: 13
             }, undefined),
@@ -36548,7 +36548,7 @@ const Home = ({ serverData  })=>{
                 className: "text-pink-600",
                 children: "Home Page"
             }, void 0, false, {
-                fileName: "src/http/get-catchall/src/pages/Home.tsx",
+                fileName: "src/web/src/pages/Home.tsx",
                 lineNumber: 17,
                 columnNumber: 13
             }, undefined),
@@ -36558,7 +36558,7 @@ const Home = ({ serverData  })=>{
                     JSON.stringify(serverData)
                 ]
             }, void 0, true, {
-                fileName: "src/http/get-catchall/src/pages/Home.tsx",
+                fileName: "src/web/src/pages/Home.tsx",
                 lineNumber: 18,
                 columnNumber: 13
             }, undefined),
@@ -36568,7 +36568,7 @@ const Home = ({ serverData  })=>{
                     serverData?.name
                 ]
             }, void 0, true, {
-                fileName: "src/http/get-catchall/src/pages/Home.tsx",
+                fileName: "src/web/src/pages/Home.tsx",
                 lineNumber: 19,
                 columnNumber: 13
             }, undefined),
@@ -36577,7 +36577,7 @@ const Home = ({ serverData  })=>{
                 className: "text-blue-500 underline",
                 children: "Go to About"
             }, void 0, false, {
-                fileName: "src/http/get-catchall/src/pages/Home.tsx",
+                fileName: "src/web/src/pages/Home.tsx",
                 lineNumber: 20,
                 columnNumber: 13
             }, undefined)
@@ -36589,16 +36589,16 @@ _c = Home;
 var _c;
 $RefreshReg$(_c, "Home");
 
-  $parcel$ReactRefreshHelpers$1a1c.postlude(module);
+  $parcel$ReactRefreshHelpers$854d.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"63L78","react":"kUSG2","../components/Head":"hkxk8","react-router-dom":"eUbxs","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hkxk8":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$f9d8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"c2fic","react":"jpU5c","../components/Head":"3Ox5l","react-router-dom":"dDJxH","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"3Ox5l":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$f599 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$f9d8.prelude(module);
+$parcel$ReactRefreshHelpers$f599.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -36612,7 +36612,7 @@ const Head = ({ title , meta ={}  })=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("title", {
                 children: title
             }, void 0, false, {
-                fileName: "src/http/get-catchall/src/components/Head.tsx",
+                fileName: "src/web/src/components/Head.tsx",
                 lineNumber: 21,
                 columnNumber: 13
             }, undefined),
@@ -36620,13 +36620,13 @@ const Head = ({ title , meta ={}  })=>{
                     property: property,
                     content: content
                 }, index, false, {
-                    fileName: "src/http/get-catchall/src/components/Head.tsx",
+                    fileName: "src/web/src/components/Head.tsx",
                     lineNumber: 23,
                     columnNumber: 17
                 }, undefined))
         ]
     }, void 0, true, {
-        fileName: "src/http/get-catchall/src/components/Head.tsx",
+        fileName: "src/web/src/components/Head.tsx",
         lineNumber: 20,
         columnNumber: 9
     }, undefined);
@@ -36635,12 +36635,12 @@ _c = Head;
 var _c;
 $RefreshReg$(_c, "Head");
 
-  $parcel$ReactRefreshHelpers$f9d8.postlude(module);
+  $parcel$ReactRefreshHelpers$f599.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"63L78","react-helmet":"akP8I","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"akP8I":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"c2fic","react-helmet":"3Q9ti","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"3Q9ti":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Helmet", ()=>HelmetExport);
@@ -37330,23 +37330,23 @@ var HelmetExport = Helmet(HelmetSideEffects);
 HelmetExport.renderStatic = HelmetExport.rewind;
 exports.default = HelmetExport;
 
-},{"prop-types":"8n29i","react-side-effect":"lajbZ","react-fast-compare":"j7xoc","react":"kUSG2","object-assign":"expRA","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8n29i":[function(require,module,exports) {
+},{"prop-types":"lJIb0","react-side-effect":"fSxbj","react-fast-compare":"sAYMv","react":"jpU5c","object-assign":"4QHq4","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lJIb0":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
- */ var ReactIs = require("aaa4bafdc3c7ec80");
+ */ var ReactIs = require("3631f2c47b7d5a2c");
 // By explicitly using `prop-types` you are opting into new development behavior.
 // http://fb.me/prop-types-in-prod
 var throwOnDirectAccess = true;
-module.exports = require("fed5bd60b59636a5")(ReactIs.isElement, throwOnDirectAccess);
+module.exports = require("84dea86cc832d89f")(ReactIs.isElement, throwOnDirectAccess);
 
-},{"aaa4bafdc3c7ec80":"dNUoy","fed5bd60b59636a5":"kodWA"}],"dNUoy":[function(require,module,exports) {
+},{"3631f2c47b7d5a2c":"fguQL","84dea86cc832d89f":"gfzky"}],"fguQL":[function(require,module,exports) {
 "use strict";
-module.exports = require("7bd0261182e5c6a6");
+module.exports = require("965a1c652b6f60e3");
 
-},{"7bd0261182e5c6a6":"g0Rmz"}],"g0Rmz":[function(require,module,exports) {
+},{"965a1c652b6f60e3":"1vcmT"}],"1vcmT":[function(require,module,exports) {
 /** @license React v16.13.1
  * react-is.development.js
  *
@@ -37503,18 +37503,18 @@ module.exports = require("7bd0261182e5c6a6");
     exports.typeOf = typeOf;
 })();
 
-},{}],"kodWA":[function(require,module,exports) {
+},{}],"gfzky":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */ "use strict";
-var ReactIs = require("7bc43d7a742017");
-var assign = require("9ca5514f9cfc0143");
-var ReactPropTypesSecret = require("40467dee433ba8b4");
-var has = require("6004ac231233ad0d");
-var checkPropTypes = require("63f159ef2db127c6");
+var ReactIs = require("733bb02ebb2b30a8");
+var assign = require("271ea6d7213358a6");
+var ReactPropTypesSecret = require("5f1e5837a332e6cf");
+var has = require("9cfaa3d92852c052");
+var checkPropTypes = require("aee4b8b2b9643486");
 var printWarning = function() {};
 printWarning = function(text) {
     var message = "Warning: " + text;
@@ -37941,7 +37941,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
     return ReactPropTypes;
 };
 
-},{"7bc43d7a742017":"dNUoy","9ca5514f9cfc0143":"expRA","40467dee433ba8b4":"kXWyM","6004ac231233ad0d":"gmrpr","63f159ef2db127c6":"bfD1x"}],"expRA":[function(require,module,exports) {
+},{"733bb02ebb2b30a8":"fguQL","271ea6d7213358a6":"4QHq4","5f1e5837a332e6cf":"lpl5Y","9cfaa3d92852c052":"RgXBq","aee4b8b2b9643486":"5KqUi"}],"4QHq4":[function(require,module,exports) {
 /*
 object-assign
 (c) Sindre Sorhus
@@ -37996,7 +37996,7 @@ module.exports = shouldUseNative() ? Object.assign : function(target, source) {
     return to;
 };
 
-},{}],"kXWyM":[function(require,module,exports) {
+},{}],"lpl5Y":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -38006,10 +38006,10 @@ module.exports = shouldUseNative() ? Object.assign : function(target, source) {
 var ReactPropTypesSecret = "SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED";
 module.exports = ReactPropTypesSecret;
 
-},{}],"gmrpr":[function(require,module,exports) {
+},{}],"RgXBq":[function(require,module,exports) {
 module.exports = Function.call.bind(Object.prototype.hasOwnProperty);
 
-},{}],"bfD1x":[function(require,module,exports) {
+},{}],"5KqUi":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -38017,9 +38017,9 @@ module.exports = Function.call.bind(Object.prototype.hasOwnProperty);
  * LICENSE file in the root directory of this source tree.
  */ "use strict";
 var printWarning = function() {};
-var ReactPropTypesSecret = require("3eaa0c682c497213");
+var ReactPropTypesSecret = require("a8ffffc4aa1ab11a");
 var loggedTypeFailures = {};
-var has = require("f40ce75855340607");
+var has = require("41e1e309d60238bb");
 printWarning = function(text) {
     var message = "Warning: " + text;
     if (typeof console !== "undefined") console.error(message);
@@ -38077,12 +38077,12 @@ printWarning = function(text) {
 };
 module.exports = checkPropTypes;
 
-},{"3eaa0c682c497213":"kXWyM","f40ce75855340607":"gmrpr"}],"lajbZ":[function(require,module,exports) {
+},{"a8ffffc4aa1ab11a":"lpl5Y","41e1e309d60238bb":"RgXBq"}],"fSxbj":[function(require,module,exports) {
 "use strict";
 function _interopDefault(ex) {
     return ex && typeof ex === "object" && "default" in ex ? ex["default"] : ex;
 }
-var React = require("54c4275efaaf2fac");
+var React = require("9f230ac3f05d3607");
 var React__default = _interopDefault(React);
 function _defineProperty(obj, key, value) {
     if (key in obj) Object.defineProperty(obj, key, {
@@ -38160,14 +38160,14 @@ function withSideEffect(reducePropsToState, handleStateChangeOnClient, mapStateO
 }
 module.exports = withSideEffect;
 
-},{"54c4275efaaf2fac":"kUSG2"}],"j7xoc":[function(require,module,exports) {
+},{"9f230ac3f05d3607":"jpU5c"}],"sAYMv":[function(require,module,exports) {
 /* global Map:readonly, Set:readonly, ArrayBuffer:readonly */ var hasElementType = typeof Element !== "undefined";
 var hasMap = typeof Map === "function";
 var hasSet = typeof Set === "function";
 var hasArrayBuffer = typeof ArrayBuffer === "function" && !!ArrayBuffer.isView;
 // Note: We **don't** need `envHasBigInt64Array` in fde es6/index.js
 function equal(a, b) {
-    // START: fast-deep-equal es6/index.js 3.1.1
+    // START: fast-deep-equal es6/index.js 3.1.3
     if (a === b) return true;
     if (a && b && typeof a == "object" && typeof b == "object") {
         if (a.constructor !== b.constructor) return false;
@@ -38221,8 +38221,13 @@ function equal(a, b) {
             return true;
         }
         if (a.constructor === RegExp) return a.source === b.source && a.flags === b.flags;
-        if (a.valueOf !== Object.prototype.valueOf) return a.valueOf() === b.valueOf();
-        if (a.toString !== Object.prototype.toString) return a.toString() === b.toString();
+        // START: Modifications:
+        // Apply guards for `Object.create(null)` handling. See:
+        // - https://github.com/FormidableLabs/react-fast-compare/issues/64
+        // - https://github.com/epoberezkin/fast-deep-equal/issues/49
+        if (a.valueOf !== Object.prototype.valueOf && typeof a.valueOf === "function" && typeof b.valueOf === "function") return a.valueOf() === b.valueOf();
+        if (a.toString !== Object.prototype.toString && typeof a.toString === "function" && typeof b.toString === "function") return a.toString() === b.toString();
+        // END: Modifications
         keys = Object.keys(a);
         length = keys.length;
         if (length !== Object.keys(b).length) return false;
@@ -38395,11 +38400,11 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"9cc428c04b640884":"786KC"}],"fS5jn":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$2a6f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"9cc428c04b640884":"786KC"}],"hsn9G":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$bd40 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$2a6f.prelude(module);
+$parcel$ReactRefreshHelpers$bd40.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -38430,21 +38435,21 @@ const About = ({ serverData ={}  })=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 children: "Jobs"
             }, void 0, false, {
-                fileName: "src/http/get-catchall/src/pages/About.tsx",
+                fileName: "src/web/src/pages/About.tsx",
                 lineNumber: 24,
                 columnNumber: 13
             }, undefined),
             isLoading && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 children: "Loading..."
             }, void 0, false, {
-                fileName: "src/http/get-catchall/src/pages/About.tsx",
+                fileName: "src/web/src/pages/About.tsx",
                 lineNumber: 25,
                 columnNumber: 27
             }, undefined),
             items.map((item)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                     children: item.PK
                 }, item.PK, false, {
-                    fileName: "src/http/get-catchall/src/pages/About.tsx",
+                    fileName: "src/web/src/pages/About.tsx",
                     lineNumber: 27,
                     columnNumber: 17
                 }, undefined))
@@ -38456,16 +38461,16 @@ _c = About;
 var _c;
 $RefreshReg$(_c, "About");
 
-  $parcel$ReactRefreshHelpers$2a6f.postlude(module);
+  $parcel$ReactRefreshHelpers$bd40.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"63L78","react":"kUSG2","../utils/fetchData":"hXWfa","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lqdVC":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$fd79 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"c2fic","react":"jpU5c","../utils/fetchData":"j5QKE","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"eu0wy":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$0ec8 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$fd79.prelude(module);
+$parcel$ReactRefreshHelpers$0ec8.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -38476,7 +38481,7 @@ const NotFound = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: "NotFound Page"
     }, void 0, false, {
-        fileName: "src/http/get-catchall/src/pages/NotFound.tsx",
+        fileName: "src/web/src/pages/NotFound.tsx",
         lineNumber: 2,
         columnNumber: 12
     }, undefined);
@@ -38485,11 +38490,11 @@ _c = NotFound;
 var _c;
 $RefreshReg$(_c, "NotFound");
 
-  $parcel$ReactRefreshHelpers$fd79.postlude(module);
+  $parcel$ReactRefreshHelpers$0ec8.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"63L78","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["1xC6H","gx3lW","afCNv"], "afCNv", "parcelRequiredb40")
+},{"react/jsx-dev-runtime":"c2fic","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["1xC6H","iML65","aYd7Z"], "aYd7Z", "parcelRequiredb40")
 
 //# sourceMappingURL=index.js.map

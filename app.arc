@@ -5,7 +5,6 @@ workhays
 @http
 get /api/v1/jobs
 get /api/v1/jobs/:jobId
-get /*
 post /api/contact
 any /*
 
@@ -23,8 +22,12 @@ prune true
 
 # Adds support for typescript to arc. Builds files use ESbuild and output to ./.build
 @plugins
+maintenance
 architect/plugin-typescript
 seed-database
+react-ssr
+tailwindcss
+parcel
 
 # Typescript esbuild config location
 @typescript

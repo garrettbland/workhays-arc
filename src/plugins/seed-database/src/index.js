@@ -19,7 +19,6 @@ let data = JSON.stringify(databases)
 
 const seed = () => {
     // TODO: Write plugin and publish and have it validate tables and indexes
-    console.log('📝 Generating fake seed data for sandbox database...')
     writeFileSync('sandbox-seed.json', data)
 }
 
