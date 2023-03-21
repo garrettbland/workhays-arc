@@ -1,7 +1,7 @@
 const { dirname, resolve } = require('path')
 const { mkdir } = require('fs/promises')
 const { updater } = require('@architect/utils')
-const { startWatcher } = require('./cli')
+const { startWatcher, build } = require('./cli')
 
 /**
  * Create 'updater' to have console logging look
@@ -87,10 +87,13 @@ module.exports = {
     // Deploy
     deploy: {
         // Pre-deploy operations
-        // start: async ({ arc, cloudformation, dryRun, inventory, stage }) => {
-        //   // Run operations prior to deployment
-        //   // Optionally return mutated `cloudformation`
-        // },
+        start: async ({ arc, cloudformation, dryRun, inventory, stage }) => {
+            // Run operations prior to deployment
+            // Optionally return mutated `cloudformation`
+            update.start('Starting production build...')
+            await build({ update })
+            update.done('Completed minified build for production')
+        },
         // Architect service discovery and config data
         // services: async ({ arc, cloudformation, dryRun, inventory, stage }) => {
         //   return {

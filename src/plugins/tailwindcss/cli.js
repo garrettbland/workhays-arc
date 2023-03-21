@@ -1,4 +1,4 @@
-const { spawn } = require('child_process')
+const { spawn, exec } = require('child_process')
 
 /**
  * Default config arguments
@@ -99,6 +99,38 @@ const startWatcher = (config = DEFAULT_CONFIG) => {
     })
 }
 
+/**
+ * Build and minify tailwind css file
+ */
+const build = (config = DEFAULT_CONFIG) => {
+    const { update } = config
+
+    return new Promise((resolve) => {
+        //update?.start('Starting tailwind build for production')
+
+        exec(
+            [
+                'tailwindcss',
+                '--input',
+                './src/plugins/tailwindcss/style.css',
+                '--output',
+                './public/style.css',
+                '--config',
+                './src/plugins/tailwindcss/tailwind.config.js',
+                '--minify',
+            ].join(' '),
+            (error, stdout, stderr) => {
+                if (error) {
+                    update?.error(error)
+                }
+                resolve()
+                // update?.done('Built minified tailwind css for production')
+            }
+        )
+    })
+}
+
 module.exports = {
     startWatcher,
+    build,
 }
