@@ -2503,13 +2503,13 @@ process.umask = function() {
     return 0;
 };
 
-},{}],"jDetW":[function(require,module,exports) {
+},{}],"8hgZL":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = 52960;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "1f460e964a0115ef";
+module.bundle.HMR_BUNDLE_ID = "3171d8cedb6137cb";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, globalThis, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -2917,67 +2917,47 @@ function hmrAccept(bundle, id) {
     });
 }
 
-},{}],"05imy":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$a7a2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"bYeD2":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$ec45 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$a7a2.prelude(module);
+$parcel$ReactRefreshHelpers$ec45.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "Home", ()=>Home);
+parcelHelpers.export(exports, "About", ()=>About);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _client = require("react-dom/client");
-var _react = require("react");
-var _s = $RefreshSig$();
-const Home = ({ initialData ={}  })=>{
-    _s();
-    const [isOpen, setOpen] = (0, _react.useState)(false);
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
-                onClick: ()=>setOpen(!isOpen),
-                children: isOpen ? "Close Me" : "Open Me"
-            }, void 0, false, {
-                fileName: "pages/index.tsx",
-                lineNumber: 8,
-                columnNumber: 13
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                children: [
-                    "Why hello this is ",
-                    initialData?.name ?? "default"
-                ]
-            }, void 0, true, {
-                fileName: "pages/index.tsx",
-                lineNumber: 9,
-                columnNumber: 13
-            }, undefined)
-        ]
-    }, void 0, true);
+const About = ({ initialData ={}  })=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: "About Page"
+    }, void 0, false, {
+        fileName: "pages/about.tsx",
+        lineNumber: 4,
+        columnNumber: 12
+    }, undefined);
 };
-_s(Home, "WPi2qa4HrijmrT7XyqmH7MkbZuo=");
-_c = Home;
+_c = About;
 const main = ()=>{
-    if (globalThis.window) (0, _client.hydrateRoot)(document.getElementById("root"), /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Home, {
+    if (globalThis.window) (0, _client.hydrateRoot)(document.getElementById("root"), /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(About, {
         initialData: window.__SERVER_DATA__
     }, void 0, false, {
-        fileName: "pages/index.tsx",
-        lineNumber: 16,
-        columnNumber: 55
+        fileName: "pages/about.tsx",
+        lineNumber: 11,
+        columnNumber: 13
     }, undefined));
 };
 main();
 var _c;
-$RefreshReg$(_c, "Home");
+$RefreshReg$(_c, "About");
 
-  $parcel$ReactRefreshHelpers$a7a2.postlude(module);
+  $parcel$ReactRefreshHelpers$ec45.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"bqjl9","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"bupFe"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","@parcel/transformer-js/src/esmodule-helpers.js":"bqjl9","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"bupFe"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("2c1180411227147");
 
@@ -27325,6 +27305,6 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"9cc428c04b640884":"8SWku"}]},["dMYEd","jDetW","05imy"], "05imy", "parcelRequire94c2")
+},{"9cc428c04b640884":"8SWku"}]},["dMYEd","8hgZL","bYeD2"], "bYeD2", "parcelRequire94c2")
 
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=about.js.map

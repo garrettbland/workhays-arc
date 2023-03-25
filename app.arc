@@ -6,6 +6,9 @@ workhays
 get /api/v1/jobs
 get /api/v1/jobs/:jobId
 post /api/contact
+/*
+  method get
+  src src/web
 any /*
 
 @aws
@@ -25,7 +28,7 @@ prune true
 maintenance
 architect/plugin-typescript
 seed-database
-react-ssr
+# react-ssr
 tailwindcss
 parcel
 
@@ -56,3 +59,7 @@ workhays
   GSI2PK *String
   GSI2SK **String
   name GSI2
+
+# Automatically scaffold resources that do not exist
+@create
+autocreate true

@@ -5,7 +5,8 @@
         "jsx": "react-jsx",
         "paths": {
             "@architect/views/*": ["src/views/*"],
-            "@custom-types/*": ["src/types/*"]
+            "@custom-types/*": ["src/types/*"],
+            "shared": ["src/shared"]
         }
     }
 }

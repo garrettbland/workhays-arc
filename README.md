@@ -77,3 +77,18 @@ To get startd, clone this repo, run `npm install`, and then `npm run dev`. This 
 ### How the web applications works
 
 Coming soon...Will give more details on React SSR
+
+### Idea
+
+/src/http/get-catchall/
+
+-   index.js
+
+    -   Router checks for "/" or "/jobs/<id>"
+    -   Routes are defined by grabbing files in "/pages" (file based routing)
+    -   Each route is wrapped by a client/server 'App.tsx', with a script tag pointing to <filename>-main.js (or whatever matches the parcel built js file)
+
+-   /pages/index.tsx
+    -   This is the home page. It's an exported JSX component
+    -   This is also an entry point for parcel. It will build out <filename>-main.js or somethiing specific. Basically a JS file for each route
+    -   There should be a JS file in here that checks for 'window' object, and then hydrates accordingly.
