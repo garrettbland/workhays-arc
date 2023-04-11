@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+navbar > ul > a {
+    @apply bg-blue-200;
+}
+
+label.required::after {
+    content: '*';
+    @apply text-red-500;
+}

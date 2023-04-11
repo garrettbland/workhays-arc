@@ -2,9 +2,17 @@
     "type": "module",
     "dependencies": {
         "@architect/functions": "^5.4.0",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0",
-        "react-helmet": "^6.1.0",
-        "serialize-javascript": "^6.0.1"
+        "preact": "^10.13.2",
+        "preact-custom-element": "^4.2.1",
+        "serialize-javascript": "^6.0.1",
+        "squirrelly": "^8.0.8"
+    },
+    "alias": {
+        "react": "preact/compat",
+        "react-dom/test-utils": "preact/test-utils",
+        "react-dom": "preact/compat"
+    },
+    "devDependencies": {
+        "@types/preact-custom-element": "^4.0.1"
     }
 }

@@ -3,6 +3,10 @@
         "strict": true,
         "baseUrl": ".",
         "jsx": "react-jsx",
+        "jsxImportSource": "preact",
+        "target": "ES2015",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
         "paths": {
             "@architect/views/*": ["src/views/*"],
             "@custom-types/*": ["src/types/*"],
